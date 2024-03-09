@@ -1,26 +1,19 @@
 <svelte:head>
 	<title>About</title>
-	<meta name="description" content="About this app" />
+	<meta name="description" content="About me" />
 </svelte:head>
 
 <div class="text-column">
-	<h1>About this app</h1>
+	<h1>Hello there!</h1>
+
+	<h2>
+		My name's Alden Davidson, welcome to my personal website!
+	</h2>
+
+	<button class="btn btn-primary">test</button>
 
 	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
-	</p>
-
-	<pre>npm create svelte@latest</pre>
-
-	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
-	</p>
-
-	<p>
-		The <a href="/sverdle">Sverdle</a> page illustrates SvelteKit's data loading and form handling. Try
-		using it with JavaScript disabled!
+		I decided to make this site when I started dabbling in self-hosting stuff for myself, simply as another thing to try.
+		It's also, of course, a pretty handy place to advertise the stuff I'm working on in a central location with more flexibility than what's possible on many other sites.
 	</p>
 </div>
