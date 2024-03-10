@@ -5,6 +5,7 @@
 </script>
 
 <header>
+	<!-- TODO: move this to bottom left and link to sverdle instead? -->
 	<div class="corner">
 		<a href="https://kit.svelte.dev">
 			<img src={logo} alt="SvelteKit" />
@@ -31,8 +32,9 @@
 		</svg>
 	</nav>
 
+	<!-- TODO: move this to wherever I also link my resume? -->
 	<div class="corner">
-		<a href="https://github.com/sveltejs/kit">
+		<a href="https://github.com/ananaso">
 			<img src={github} alt="GitHub" />
 		</a>
 	</div>
