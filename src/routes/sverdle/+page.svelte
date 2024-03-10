@@ -93,10 +93,10 @@
 <h1 class="visually-hidden">Sverdle</h1>
 
 <div class="flex-column flex justify-center">
-	<p class="relative top-48 w-1/2 text-center text-sm">
+	<p class="relative top-48 w-3/5 text-center text-sm">
 		I wish I could claim this, but it was included in the demo code when I used <a
 			href="https://github.com/svelte-add/svelte-add">Svelte Add</a
-		> to bootstrap this site. It's pretty neat though so I decided to keep it!
+		> to bootstrap this site. It's pretty neat though so I decided to keep it for now 🙂
 	</p>
 </div>
 
