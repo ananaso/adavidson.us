@@ -39,12 +39,6 @@
 		another thing to try. It's also, of course, a pretty handy place to organize the stuff I'm
 		working on in a central location with more flexibility than what's possible on many other sites.
 	</p>
-
-	<p class="relative top-48 text-xs">
-		...and yes, I did shamelessly base this site's skeleton off of the <a
-			href="https://github.com/svelte-add/svelte-add">Svelte Add</a
-		> demo site 😄
-	</p>
 </section>
 
 <style>
