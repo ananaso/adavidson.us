@@ -206,7 +206,7 @@
 
 <div class="corner bottom-left">
 	<a href="/">
-		<Home class="h-6 w-6" strokeWidth={3} />
+		<Home class="h-6 w-6" />
 	</a>
 </div>
 
