@@ -3,6 +3,7 @@
 	import { enhance } from '$app/forms';
 	import type { PageData, ActionData } from './$types';
 	import { reduced_motion } from './reduced-motion';
+	import { Home } from 'lucide-svelte';
 
 	export let data: PageData;
 
@@ -203,6 +204,12 @@
 	/>
 {/if}
 
+<div class="corner bottom-left">
+	<a href="/">
+		<Home class="h-6 w-6" strokeWidth={3} />
+	</a>
+</div>
+
 <style>
 	form {
 		width: 100%;
@@ -215,25 +222,26 @@
 		flex: 1;
 	}
 
-	.how-to-play {
-		color: var(--color-text);
+	.bottom-left {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 100%;
 	}
 
-	.how-to-play::before {
-		content: 'i';
-		display: inline-block;
-		font-size: 0.8em;
-		font-weight: 900;
-		width: 1em;
-		height: 1em;
-		padding: 0.2em;
-		line-height: 1;
-		border: 1.5px solid var(--color-text);
-		border-radius: 50%;
+	.controls {
 		text-align: center;
-		margin: 0 0.5em 0 0;
-		position: relative;
-		top: -0.05em;
+		justify-content: center;
+		height: min(18vh, 10rem);
+	}
+
+	.corner {
+		width: 3em;
+		height: 3em;
 	}
 
 	.grid {
@@ -265,45 +273,25 @@
 		filter: drop-shadow(3px 3px 10px var(--color-bg-0));
 	}
 
-	.letter {
-		aspect-ratio: 1;
-		width: 100%;
-		display: flex;
-		align-items: center;
-		justify-content: center;
+	.how-to-play {
+		color: var(--color-text);
+	}
+
+	.how-to-play::before {
+		content: 'i';
+		display: inline-block;
+		font-size: 0.8em;
+		font-weight: 900;
+		width: 1em;
+		height: 1em;
+		padding: 0.2em;
+		line-height: 1;
+		border: 1.5px solid var(--color-text);
+		border-radius: 50%;
 		text-align: center;
-		box-sizing: border-box;
-		text-transform: lowercase;
-		border: none;
-		font-size: calc(0.08 * var(--width));
-		border-radius: 2px;
-		background: white;
-		margin: 0;
-		color: rgba(0, 0, 0, 0.7);
-	}
-
-	.letter.missing {
-		background: rgba(255, 255, 255, 0.5);
-		color: rgba(0, 0, 0, 0.5);
-	}
-
-	.letter.exact {
-		background: var(--color-theme-2);
-		color: white;
-	}
-
-	.letter.close {
-		border: 2px solid var(--color-theme-2);
-	}
-
-	.selected {
-		outline: 2px solid var(--color-theme-1);
-	}
-
-	.controls {
-		text-align: center;
-		justify-content: center;
-		height: min(18vh, 10rem);
+		margin: 0 0.5em 0 0;
+		position: relative;
+		top: -0.05em;
 	}
 
 	.keyboard {
@@ -313,13 +301,6 @@
 		flex-direction: column;
 		gap: var(--gap);
 		height: 100%;
-	}
-
-	.keyboard .row {
-		display: flex;
-		justify-content: center;
-		gap: 0.2rem;
-		flex: 1;
 	}
 
 	.keyboard button,
@@ -332,25 +313,6 @@
 		border-radius: 2px;
 		font-size: calc(var(--size) * 0.5);
 		margin: 0;
-	}
-
-	.keyboard button.exact {
-		background: var(--color-theme-2);
-		color: white;
-	}
-
-	.keyboard button.missing {
-		opacity: 0.5;
-	}
-
-	.keyboard button.close {
-		border: 2px solid var(--color-theme-2);
-	}
-
-	.keyboard button:focus {
-		background: var(--color-theme-1);
-		color: white;
-		outline: none;
 	}
 
 	.keyboard button[data-key='enter'],
@@ -376,6 +338,63 @@
 		opacity: 0.5;
 	}
 
+	.keyboard button.close {
+		border: 2px solid var(--color-theme-2);
+	}
+
+	.keyboard button.exact {
+		background: var(--color-theme-2);
+		color: white;
+	}
+
+	.keyboard button:focus {
+		background: var(--color-theme-1);
+		color: white;
+		outline: none;
+	}
+
+	.keyboard button.missing {
+		opacity: 0.5;
+	}
+
+	.keyboard .row {
+		display: flex;
+		justify-content: center;
+		gap: 0.2rem;
+		flex: 1;
+	}
+
+	.letter {
+		aspect-ratio: 1;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		box-sizing: border-box;
+		text-transform: lowercase;
+		border: none;
+		font-size: calc(0.08 * var(--width));
+		border-radius: 2px;
+		background: white;
+		margin: 0;
+		color: rgba(0, 0, 0, 0.7);
+	}
+
+	.letter.close {
+		border: 2px solid var(--color-theme-2);
+	}
+
+	.letter.exact {
+		background: var(--color-theme-2);
+		color: white;
+	}
+
+	.letter.missing {
+		background: rgba(255, 255, 255, 0.5);
+		color: rgba(0, 0, 0, 0.5);
+	}
+
 	.restart {
 		width: 100%;
 		padding: 1rem;
@@ -389,6 +408,10 @@
 		background: var(--color-theme-1);
 		color: white;
 		outline: none;
+	}
+
+	.selected {
+		outline: 2px solid var(--color-theme-1);
 	}
 
 	@keyframes wiggle {
