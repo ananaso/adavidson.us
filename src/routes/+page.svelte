@@ -1,7 +1,5 @@
 <script>
-	import logo from '$lib/images/svelte-logo.svg';
-	import { page } from '$app/stores';
-	import github from '$lib/images/github.svg';
+	import { Joystick, FolderGit, ExternalLink, ScrollText, Download } from 'lucide-svelte';
 </script>
 
 <svelte:head>
@@ -10,50 +8,29 @@
 </svelte:head>
 
 <!-- TODO: create some sort of list of things to showcase? -->
-<!-- # Github Account -->
 <!-- # Resume -->
 <!-- # Current (audio)book? -->
 <!-- # List of other (aduio)books I've read? -->
 <!-- # Current Hobbies? -->
 <!-- # Link to Jellyfin -->
+<section class="flex w-3/5 flex-col space-y-4 place-self-center">
+	<a role="button" class="btn" href="https://github.com/ananaso"
+		><FolderGit />GitHub<ExternalLink class="h-4 w-4 text-info" /></a
+	>
 
-<!-- TODO: move this to wherever I also link my resume? -->
-<div class="corner">
-	<a href="https://github.com/ananaso">
-		<img src={github} alt="GitHub" />
-	</a>
-</div>
+	<a role="button" class="btn" href=""><ScrollText />Résumé<Download class="h-4 w-4 text-info" /></a
+	>
+</section>
 
-<!-- TODO: move this to bottom left and link to sverdle instead? -->
-<div class="corner bottom-left">
-	<a href="/sverdle">
-		<img src={logo} alt="SvelteKit" />
+<!-- TODO maybe put a cool transition on this and the home button -->
+<div class="absolute bottom-0 left-0 h-12 w-12">
+	<a class="flex h-full w-full items-center justify-center" href="/sverdle">
+		<Joystick />
 	</a>
 </div>
 
 <style>
-	.bottom-left {
-		position: absolute;
-		bottom: 0;
-		left: 0;
-	}
-
-	.corner {
-		width: 3em;
-		height: 3em;
-	}
-
-	.corner a {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 100%;
-		height: 100%;
-	}
-
-	.corner img {
-		width: 2em;
-		height: 2em;
-		object-fit: contain;
+	a:hover {
+		text-decoration: none;
 	}
 </style>
