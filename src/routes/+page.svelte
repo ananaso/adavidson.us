@@ -18,7 +18,7 @@
 		><FolderGit />GitHub<ExternalLink class="h-4 w-4 text-info" /></a
 	>
 
-	<a role="button" class="btn" href=""><ScrollText />Résumé<Download class="h-4 w-4 text-info" /></a
+	<a role="button" class="btn" href=""><ScrollText />Resumé<Download class="h-4 w-4 text-info" /></a
 	>
 </section>
 
