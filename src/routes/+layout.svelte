@@ -1,15 +1,16 @@
 <script>
 	import '../app.pcss';
 	import Header from './Header.svelte';
+	import Navbar from './Navbar.svelte';
 	import './styles.css';
 </script>
 
 <div class="app">
-	<Header></Header>
-
-	<main>
-		<slot />
-	</main>
+	<Navbar>
+		<main>
+			<slot />
+		</main>
+	</Navbar>
 </div>
 
 <style>
@@ -25,7 +26,7 @@
 		flex-direction: column;
 		padding: 1rem;
 		width: 100%;
-		max-width: 64rem;
+		max-width: 80%;
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
