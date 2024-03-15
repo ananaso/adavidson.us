@@ -1,5 +1,5 @@
 <script>
-	import { ExternalLink, Home, Info, Menu, Music } from 'lucide-svelte';
+	import { ExternalLink, Home, Info, Joystick, Menu, Music } from 'lucide-svelte';
 	import { page } from '$app/stores';
 </script>
 
@@ -25,6 +25,11 @@
 					<a href="https://jellyfin.adavidson.us"
 						><Music />Jellyfin<ExternalLink class="h-4 w-4 text-info" /></a
 					>
+				</li>
+				<li class="mt-auto">
+					<a class="flex h-full w-full items-center justify-center" href="/sverdle">
+						<Joystick />
+					</a>
 				</li>
 			</ul>
 		</div>
