@@ -93,8 +93,8 @@
 
 <h1 class="visually-hidden">Sverdle</h1>
 
-<div class="flex-column flex justify-center">
-	<p class="relative top-48 w-3/5 text-center text-sm">
+<div class="flex-column my-12 flex items-center justify-center">
+	<p class="relative w-3/5 text-center text-sm">
 		I wish I could claim this, but it was included in the demo code when I used <a
 			href="https://github.com/svelte-add/svelte-add">Svelte Add</a
 		> to bootstrap this site. It's pretty neat though so I decided to keep it for now 🙂
@@ -204,20 +204,12 @@
 	/>
 {/if}
 
-<div class="corner bottom-left">
-	<a href="/">
-		<Home />
-	</a>
-</div>
-
 <style>
 	form {
 		width: 100%;
-		height: 100%;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		justify-content: center;
 		gap: 1rem;
 		flex: 1;
 	}
@@ -250,7 +242,6 @@
 		align-self: center;
 		justify-self: center;
 		width: 100%;
-		height: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
@@ -281,10 +272,9 @@
 		content: 'i';
 		display: inline-block;
 		font-size: 0.8em;
-		font-weight: 900;
-		width: 1em;
-		height: 1em;
-		padding: 0.2em;
+		font-weight: 200;
+		width: 1.2em;
+		height: 1.2em;
 		line-height: 1;
 		border: 1.5px solid var(--color-text);
 		border-radius: 50%;
