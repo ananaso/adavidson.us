@@ -1,5 +1,5 @@
 <script>
-	import { Joystick, FolderGit, ExternalLink, ScrollText, Download } from 'lucide-svelte';
+	import { FolderGit, ExternalLink, ScrollText, Download } from 'lucide-svelte';
 </script>
 
 <svelte:head>

@@ -3,7 +3,6 @@
 	import { enhance } from '$app/forms';
 	import type { PageData, ActionData } from './$types';
 	import { reduced_motion } from './reduced-motion';
-	import { Home } from 'lucide-svelte';
 
 	export let data: PageData;
 
@@ -261,11 +260,14 @@
 	}
 
 	.grid.playing .row.current {
-		filter: drop-shadow(3px 3px 10px var(--color-bg-0));
+		/* OG */
+		/* filter: drop-shadow(3px 3px 10px var(--color-bg-0)); */
+		/* Tailwind drop-shadow-2xl */
+		filter: drop-shadow(0 25px 25px oklch(var(--bc) / 0.15));
 	}
 
 	.how-to-play {
-		color: var(--color-text);
+		color: oklch(var(--in));
 	}
 
 	.how-to-play::before {
@@ -276,7 +278,7 @@
 		width: 1.2em;
 		height: 1.2em;
 		line-height: 1;
-		border: 1.5px solid var(--color-text);
+		border: 1.5px solid oklch(var(--in));
 		border-radius: 50%;
 		text-align: center;
 		margin: 0 0.5em 0 0;
@@ -296,8 +298,8 @@
 	.keyboard button,
 	.keyboard button:disabled {
 		--size: min(8vw, 4vh, 40px);
-		background-color: white;
-		color: black;
+		background-color: oklch(var(--b3));
+		color: oklch(var(--bc));
 		width: var(--size);
 		border: none;
 		border-radius: 2px;
@@ -329,17 +331,17 @@
 	}
 
 	.keyboard button.close {
-		border: 2px solid var(--color-theme-2);
+		border: 2px solid oklch(var(--su));
 	}
 
 	.keyboard button.exact {
-		background: var(--color-theme-2);
-		color: white;
+		background: oklch(var(--su));
+		color: oklch(var(--suc));
 	}
 
 	.keyboard button:focus {
-		background: var(--color-theme-1);
-		color: white;
+		background: oklch(var(--a));
+		color: oklch(var(--ac));
 		outline: none;
 	}
 
@@ -366,42 +368,42 @@
 		border: none;
 		font-size: calc(0.08 * var(--width));
 		border-radius: 2px;
-		background: white;
+		background-color: oklch(var(--b3));
 		margin: 0;
-		color: rgba(0, 0, 0, 0.7);
+		color: oklch(var(--bc));
 	}
 
 	.letter.close {
-		border: 2px solid var(--color-theme-2);
+		border: 2px solid oklch(var(--su));
 	}
 
 	.letter.exact {
-		background: var(--color-theme-2);
-		color: white;
+		background: oklch(var(--su));
+		color: oklch(var(--suc));
 	}
 
 	.letter.missing {
-		background: rgba(255, 255, 255, 0.5);
-		color: rgba(0, 0, 0, 0.5);
+		opacity: 0.5;
 	}
 
 	.restart {
 		width: 100%;
 		padding: 1rem;
-		background: rgba(255, 255, 255, 0.5);
+		background: oklch(var(--a));
+		color: oklch(var(--ac));
 		border-radius: 2px;
 		border: none;
 	}
 
 	.restart:focus,
 	.restart:hover {
-		background: var(--color-theme-1);
-		color: white;
+		background: oklch(var(--p));
+		color: oklch(var(--pc));
 		outline: none;
 	}
 
 	.selected {
-		outline: 2px solid var(--color-theme-1);
+		outline: 2px solid oklch(var(--a));
 	}
 
 	@keyframes wiggle {
