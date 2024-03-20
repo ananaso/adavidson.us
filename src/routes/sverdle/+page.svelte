@@ -274,9 +274,10 @@
 		content: 'i';
 		display: inline-block;
 		font-size: 0.8em;
-		font-weight: 200;
-		width: 1.2em;
-		height: 1.2em;
+		font-weight: 400;
+		width: 1.4em;
+		height: 1.4em;
+		padding: 0.2em;
 		line-height: 1;
 		border: 1.5px solid oklch(var(--in));
 		border-radius: 50%;

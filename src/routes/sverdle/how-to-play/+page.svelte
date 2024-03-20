@@ -51,26 +51,25 @@
 		font-size: 0.8em;
 		width: 2.4em;
 		height: 2.4em;
-		background-color: white;
+		background-color: oklch(var(--b3));
+		color: oklch(var(--bc));
 		box-sizing: border-box;
+		border: none;
 		border-radius: 2px;
-		border-width: 2px;
-		color: rgba(0, 0, 0, 0.7);
 	}
 
 	.missing {
-		background: rgba(255, 255, 255, 0.5);
-		color: rgba(0, 0, 0, 0.5);
+		opacity: 0.5;
 	}
 
 	.close {
 		border-style: solid;
-		border-color: var(--color-theme-2);
+		border-color: oklch(var(--su));
 	}
 
 	.exact {
-		background: var(--color-theme-2);
-		color: white;
+		background: oklch(var(--su));
+		color: oklch(var(--suc));
 	}
 
 	.example {
