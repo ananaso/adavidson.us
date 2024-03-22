@@ -1,5 +1,5 @@
 <script>
-	import { ExternalLink, Home, Info, Joystick, Menu, Music } from 'lucide-svelte';
+	import { ExternalLink, FolderGit, Home, Info, Joystick, Menu, Music } from 'lucide-svelte';
 	import { page } from '$app/stores';
 </script>
 
@@ -20,6 +20,11 @@
 				</li>
 				<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 					<a href="/about"><Info />About</a>
+				</li>
+				<li>
+					<a href="https://github.com/ananaso"
+						><FolderGit />GitHub<ExternalLink class="h-4 w-4 text-info" /></a
+					>
 				</li>
 				<li>
 					<a href="https://jellyfin.adavidson.us"
