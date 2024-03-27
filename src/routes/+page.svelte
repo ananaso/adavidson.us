@@ -13,7 +13,7 @@
 <!-- # List of other (aduio)books I've read? -->
 <!-- # Current Hobbies? -->
 
-<section class="flex w-3/5 flex-col space-y-4 place-self-center">
+<section class="flex w-4/5 flex-col space-y-4 place-self-center">
 	<ul class="timeline timeline-vertical timeline-snap-icon max-md:timeline-compact">
 		<li>
 			<hr class="bg-neutral" />
@@ -35,6 +35,11 @@
 				<time class="font-mono italic">Feb 2024</time>
 				<div class="text-lg font-bold text-primary">SkillBridge Internship, Software Engineer</div>
 				<div class="text-sm text-accent">Sagely</div>
+				Growing software skills and learning how modern commercial/startup software development is accomplished.
+				Helping build a social learning platform to guide users' professional learning journeys using
+				AI to curate, organize, and contextualize content from across the internet. Working primarily
+				with GPT, NativeWind, React, React Native, Tailwind CSS, and Typescript deployed on Expo Application
+				Services.
 			</div>
 			<hr class="bg-neutral" />
 		</li>
@@ -58,6 +63,10 @@
 				<time class="font-mono italic">Jan 2022</time>
 				<div class="text-lg font-bold text-primary">Full-stack Software Engineer</div>
 				<div class="text-sm text-accent">Section 31, Unites States Space Force</div>
+				Developed and sustained two full-stack applications for 1200+ space command and control users
+				worldwide. Utilized Test-drive development, extreme programming, user-centered design, and continuous
+				integration to ensure high quality and speedy software deliveries. Worked primarily with Kotlin,
+				MySQL, React, Spring Boot, and Typescript deployed on Azure Kubernetes Services.
 			</div>
 			<hr class="bg-neutral" />
 		</li>
@@ -81,6 +90,8 @@
 				<time class="font-mono italic">Nov 2019</time>
 				<div class="text-lg font-bold text-primary">Project Manager</div>
 				<div class="text-sm text-accent">Unites States Air Force / United States Space Force</div>
+				Led cross-functional team of eight to manage software projects related to the Advanced Extremely
+				High Frequency (AEHF) satellite constellation.
 			</div>
 			<hr class="bg-neutral" />
 		</li>
