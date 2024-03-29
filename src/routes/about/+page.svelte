@@ -21,10 +21,10 @@
 	<p class="text-lg">Hello there! My name's Alden Davidson, this is my personal website!</p>
 
 	<p>
-		For the last 4+ years I've been an officer in United States Space Force/Air Force at Los Angeles
-		Air Force Base. During that time, I've had the privilege to become a <a
-			href="https://supracoders.us/">Supra Coder</a
-		> and this jumpstarted my journey into full-stack software development.
+		For the last 4+ combined years I've been an officer in the United States Space Force and the
+		United States Air Force at Los Angeles Air Force Base. During that time, I've had the privilege
+		to become a <a href="https://supracoders.us/">Supra Coder</a> and this jumpstarted my journey into
+		full-stack software development.
 	</p>
 
 	<p>
