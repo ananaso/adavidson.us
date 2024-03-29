@@ -31,7 +31,7 @@
 					/>
 				</svg>
 			</div>
-			<div class="timeline-start mb-10 md:text-end">
+			<div class="timeline-end mb-10 md:timeline-start md:mb-1 md:text-end">
 				<time class="font-mono italic">Feb 2024</time>
 				<div class="text-lg font-bold text-primary">SkillBridge Internship, Software Engineer</div>
 				<div class="text-sm font-semibold text-secondary">Sagely</div>
@@ -59,7 +59,7 @@
 					/>
 				</svg>
 			</div>
-			<div class="timeline-end mb-10">
+			<div class="timeline-end mb-10 md:mb-1">
 				<time class="font-mono italic">Jan 2022</time>
 				<div class="text-lg font-bold text-primary">Full-stack Software Engineer</div>
 				<div class="text-sm font-semibold text-secondary">
@@ -88,7 +88,7 @@
 					/>
 				</svg>
 			</div>
-			<div class="timeline-start mb-10 md:text-end">
+			<div class="timeline-end mb-10 md:timeline-start md:mb-1 md:text-end">
 				<time class="font-mono italic">Nov 2019</time>
 				<div class="text-lg font-bold text-primary">Project Manager</div>
 				<div class="text-sm font-semibold text-secondary">
@@ -115,7 +115,7 @@
 					/>
 				</svg>
 			</div>
-			<div class="timeline-end mb-10">
+			<div class="timeline-end mb-10 md:mb-1">
 				<time class="font-mono italic">May 2019</time>
 				<div class="text-lg font-bold text-primary">Graduated & Commissioned</div>
 				<div class="text-sm font-semibold text-secondary">Rochester Institute of Technology</div>
@@ -143,7 +143,7 @@
 					/>
 				</svg>
 			</div>
-			<div class="timeline-start mb-10 md:text-end">
+			<div class="timeline-end mb-10 md:timeline-start md:mb-1 md:text-end">
 				<time class="font-mono italic">June 2017</time>
 				<div class="text-lg font-bold text-primary">Robot Programmer Intern</div>
 				<div class="text-sm font-semibold text-secondary">RT Leaders</div>
@@ -168,7 +168,7 @@
 					/>
 				</svg>
 			</div>
-			<div class="timeline-end mb-10">
+			<div class="timeline-end mb-10 md:mb-1">
 				<time class="font-mono italic">December 2016</time>
 				<div class="text-lg font-bold text-primary">Software Development & Research Intern</div>
 				<div class="text-sm font-semibold text-secondary">
