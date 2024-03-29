@@ -2,8 +2,8 @@
 	import { theme, toggleTheme } from '$lib/util/themeStore';
 	import { onMount } from 'svelte';
 
-	const lightTheme = 'autumn';
-	const darkTheme = 'forest';
+	const lightTheme = 'retro';
+	const darkTheme = 'sunset';
 
 	const themeTranslate = (genericName: string) => {
 		return genericName === 'light' ? lightTheme : darkTheme;
