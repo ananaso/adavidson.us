@@ -1,14 +1,12 @@
 <script>
 	import '../app.pcss';
 	import Navbar from '$lib/components/Navbar.svelte';
-	import ThemeController from '$lib/components/ThemeController.svelte';
 	import './styles.css';
 </script>
 
 <div class="app">
 	<Navbar>
 		<main>
-			<ThemeController />
 			<slot />
 		</main>
 	</Navbar>

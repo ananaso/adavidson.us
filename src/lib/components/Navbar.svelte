@@ -1,15 +1,19 @@
 <script>
 	import { ExternalLink, FolderGit, Home, Info, Joystick, Menu, Music } from 'lucide-svelte';
 	import { page } from '$app/stores';
+	import ThemeController from '$lib/components/ThemeController.svelte';
 </script>
 
 <header>
 	<nav class="drawer lg:drawer-open">
 		<input id="nav-drawer" type="checkbox" class="drawer-toggle" />
 		<div class="drawer-content flex flex-col items-center justify-center">
-			<label for="nav-drawer" class="btn btn-primary drawer-button m-2 place-self-start lg:hidden"
-				><Menu /></label
-			>
+			<div class="flex w-full flex-row items-center justify-between p-2">
+				<label for="nav-drawer" class="btn btn-primary drawer-button lg:hidden"><Menu /></label>
+				<div class="flex w-full flex-row justify-end">
+					<ThemeController />
+				</div>
+			</div>
 			<slot />
 		</div>
 		<div class="drawer-side">
@@ -42,6 +46,9 @@
 </header>
 
 <style>
+	a {
+		color: oklch(var(--bc));
+	}
 	a:hover {
 		text-decoration: none;
 	}
