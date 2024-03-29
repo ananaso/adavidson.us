@@ -152,9 +152,3 @@
 </section>
 
 <!-- TODO maybe put a cool transition on this and the home button -->
-
-<style>
-	a:hover {
-		text-decoration: none;
-	}
-</style>

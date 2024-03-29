@@ -1,7 +1,6 @@
 @import '@fontsource/fira-mono';
 
 a {
-	color: oklch(var(--p));
 	text-decoration: none;
 }
 
