@@ -1,5 +1,14 @@
 <script>
-	import { ExternalLink, FolderGit, Home, Info, Joystick, Menu, Music } from 'lucide-svelte';
+	import {
+		BriefcaseBusiness,
+		ExternalLink,
+		FolderGit,
+		Home,
+		Info,
+		Joystick,
+		Menu,
+		Music
+	} from 'lucide-svelte';
 	import { page } from '$app/stores';
 	import ThemeController from '$lib/components/ThemeController.svelte';
 </script>
@@ -18,12 +27,15 @@
 		</div>
 		<div class="drawer-side">
 			<label for="nav-drawer" aria-label="close sidebar" class="drawer-overlay" />
-			<ul class="menu min-h-full w-48 bg-base-200 p-4 text-base-content">
+			<ul class="menu min-h-full w-fit bg-base-200 p-4 text-base-content">
 				<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 					<a href="/"><Home />Home</a>
 				</li>
 				<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
 					<a href="/about"><Info />About</a>
+				</li>
+				<li aria-current={$page.url.pathname === '/history' ? 'page' : undefined}>
+					<a href="/history"><BriefcaseBusiness />Work History</a>
 				</li>
 				<li>
 					<a href="https://github.com/ananaso"
