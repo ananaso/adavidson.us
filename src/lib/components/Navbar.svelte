@@ -5,7 +5,6 @@
 		FolderGit,
 		Home,
 		Info,
-		Joystick,
 		Menu,
 		Music
 	} from 'lucide-svelte';
@@ -47,11 +46,6 @@
 						><Music />Jellyfin<ExternalLink class="h-4 w-4 text-info" /></a
 					>
 				</li>
-				<li class="mt-auto">
-					<a class="flex h-full w-full items-center justify-center" href="/sverdle">
-						<Joystick />
-					</a>
-				</li>
 			</ul>
 		</div>
 	</nav>
@@ -61,6 +55,7 @@
 	a {
 		color: oklch(var(--bc));
 	}
+
 	a:hover {
 		text-decoration: none;
 	}
