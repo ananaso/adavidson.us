@@ -6,7 +6,7 @@
 
 <div class="app">
 	<Navbar>
-		<main>
+		<main class="flex w-4/5 flex-col space-y-4 place-self-center">
 			<slot />
 		</main>
 	</Navbar>
