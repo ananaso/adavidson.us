@@ -23,6 +23,8 @@
 	<p class="text-lg">Hello there! My name's Alden Davidson, this is my personal website!</p>
 </section>
 
+<!-- TODO why is there a huge space here? -->
+
 <p>
 	For the last 4+ combined years I've been an officer in the United States Space Force and the
 	United States Air Force at Los Angeles Air Force Base. During that time, I've had the privilege to
