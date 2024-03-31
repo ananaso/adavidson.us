@@ -8,6 +8,8 @@
 	<meta name="description" content="A brief history of my work experience" />
 </svelte:head>
 
+<!-- TODO find a better way to list out tools and declutter the timeline -->
+
 <ul class="timeline timeline-vertical timeline-snap-icon max-md:timeline-compact">
 	<TimelineItem
 		date="Feb 2024"

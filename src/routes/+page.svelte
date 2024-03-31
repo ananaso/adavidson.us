@@ -10,4 +10,11 @@
 <!-- # Current Hobbies? -->
 <!-- # Movies? -->
 
+<!-- TODO configure caddy to understand that "/about" == "about.html" (or change svelte to always use trailingSlash) -->
+<!-- TODO figure out who's nagging about missing a favicon.ico -->
+
+<!-- TODO add "contact" page with email -->
+
+<!-- TODO give site a mobile gut-check -->
+
 <p class="place-self-center">This page intentionally left blank...for now.</p>

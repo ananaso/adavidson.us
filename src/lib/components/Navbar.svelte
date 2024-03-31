@@ -12,6 +12,8 @@
 	import ThemeController from '$lib/components/ThemeController.svelte';
 </script>
 
+<!-- TODO automatically close navbar after clicking link when on mobile (i.e. sm breakpoint) -->
+
 <header>
 	<nav class="drawer lg:drawer-open">
 		<input id="nav-drawer" type="checkbox" class="drawer-toggle" />
@@ -41,6 +43,8 @@
 						><FolderGit />GitHub<ExternalLink class="h-4 w-4 text-info" /></a
 					>
 				</li>
+				<!-- TODO add linkedIn button here -->
+				<!-- TODO move jellyfin button to bottom of navbar -->
 				<li>
 					<a href="https://jellyfin.adavidson.us" rel="external noopener noreferrer" target="_blank"
 						><Music />Jellyfin<ExternalLink class="h-4 w-4 text-info" /></a

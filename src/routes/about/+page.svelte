@@ -8,6 +8,8 @@
 	<meta name="description" content="About me" />
 </svelte:head>
 
+<!-- TODO make this the homepage -->
+
 <section class="text-center">
 	<h1>
 		<span class="welcome">
