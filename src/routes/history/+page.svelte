@@ -7,12 +7,6 @@
 	<meta name="description" content="A brief history of my work experience" />
 </svelte:head>
 
-<!-- TODO: create some sort of list of things to showcase? -->
-<!-- # Resume timeline and PDF download -->
-<!-- # Current (audio)book? -->
-<!-- # List of other (aduio)books I've read? -->
-<!-- # Current Hobbies? -->
-
 <ul class="timeline timeline-vertical timeline-snap-icon max-md:timeline-compact">
 	<li>
 		<hr class="bg-neutral" />
@@ -176,6 +170,6 @@
 	</li>
 </ul>
 
-<a role="button" class="btn w-fit md:self-center" href=""
+<a role="button" class="btn w-fit md:self-center" href="/resume_adavidson.pdf"
 	><ScrollText />Resumé<Download class="h-4 w-4 text-info" /></a
 >
