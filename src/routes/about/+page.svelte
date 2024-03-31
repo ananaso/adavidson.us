@@ -23,15 +23,19 @@
 	<p>
 		For the last 4+ combined years I've been an officer in the United States Space Force and the
 		United States Air Force at Los Angeles Air Force Base. During that time, I've had the privilege
-		to become a <a href="https://supracoders.us/">Supra Coder</a> and this jumpstarted my journey into
-		full-stack software development.
+		to become a <a href="https://supracoders.us/" rel="external noopener noreferrer" target="_blank"
+			>Supra Coder</a
+		> and this jumpstarted my journey into full-stack software development.
 	</p>
 
 	<p>
 		I'm now in the process of transitioning to private industry in August 2024. Currently I'm doing
-		a SkillBridge internship with <a href="https://www.growsagely.com/">Sagely</a> as a software engineer
-		helping them create an outstanding tool for organizing and guiding folks' learning journeys - and
-		doing my own learning journey into how modern commercial software is developed!
+		a SkillBridge internship with <a
+			href="https://www.growsagely.com/"
+			rel="external noopener noreferrer"
+			target="_blank">Sagely</a
+		> as a software engineer helping them create an outstanding tool for organizing and guiding folks'
+		learning journeys - and doing my own learning journey into how modern commercial software is developed!
 	</p>
 
 	<p>

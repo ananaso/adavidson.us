@@ -37,12 +37,12 @@
 					<a href="/history"><BriefcaseBusiness />Work History</a>
 				</li>
 				<li>
-					<a href="https://github.com/ananaso"
+					<a href="https://github.com/ananaso" rel="external noopener noreferrer" target="_blank"
 						><FolderGit />GitHub<ExternalLink class="h-4 w-4 text-info" /></a
 					>
 				</li>
 				<li>
-					<a href="https://jellyfin.adavidson.us"
+					<a href="https://jellyfin.adavidson.us" rel="external noopener noreferrer" target="_blank"
 						><Music />Jellyfin<ExternalLink class="h-4 w-4 text-info" /></a
 					>
 				</li>
