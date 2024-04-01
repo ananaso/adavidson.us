@@ -62,6 +62,9 @@
 	/>
 </ul>
 
-<a role="button" class="btn w-fit md:self-center" href="/resume_adavidson.pdf"
-	><ScrollText />Resumé<Download class="h-4 w-4 text-info" /></a
+<a
+	role="button"
+	class="btn w-fit md:self-center"
+	href="/resume_adavidson.pdf"
+	download="resume_adavidson.pdf"><ScrollText />Resumé<Download class="h-4 w-4 text-info" /></a
 >
