@@ -5,6 +5,7 @@
 	export let title: string;
 	export let company: string;
 	export let description: string;
+	export let tools: string | undefined = undefined;
 	export let hangLeft: boolean = false;
 </script>
 
@@ -19,11 +20,31 @@
 			/>
 		</svg>
 	</div>
-	<div class={cn('timeline-end mb-10 md:mb-1', hangLeft && 'md:timeline-start md:text-end')}>
+	<div class={cn('timeline-end mb-10 md:mb-6', hangLeft && 'md:timeline-start md:text-end')}>
 		<time class="font-mono italic">{date}</time>
 		<div class="text-lg font-bold text-primary">{title}</div>
-		<div class="text-sm font-semibold text-secondary">{company}</div>
+		<div
+			class={cn(
+				'text-md divider mb-2 mt-1 font-semibold text-secondary',
+				// TODO can we use divider-start/end with cn?
+				// 	maybe see if not using cn works?
+				hangLeft ? 'divider-start md:divider-end' : 'divider-start'
+			)}
+		>
+			{company}
+		</div>
 		{description}
+		{#if tools}
+			<div
+				class={cn(
+					'divider mb-2 font-semibold',
+					hangLeft ? 'divider-start md:divider-end' : 'divider-start'
+				)}
+			>
+				Tools
+			</div>
+			{tools}
+		{/if}
 	</div>
 	<hr class="bg-neutral" />
 </li>
