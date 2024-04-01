@@ -4,9 +4,9 @@
 		ExternalLink,
 		FolderGit,
 		Home,
-		Info,
 		Menu,
-		Music
+		Music,
+		SquareUser
 	} from 'lucide-svelte';
 	import { page } from '$app/stores';
 	import ThemeController from '$lib/components/ThemeController.svelte';
@@ -40,9 +40,14 @@
 						><FolderGit />GitHub<ExternalLink class="h-4 w-4 text-info" /></a
 					>
 				</li>
-				<!-- TODO add linkedIn button here -->
-				<!-- TODO move jellyfin button to bottom of navbar -->
 				<li>
+					<a
+						href="https://www.linkedin.com/in/davidsonalden/"
+						rel="external noopener noreferrer"
+						target="_blank"><SquareUser />LinkedIn<ExternalLink class="h-4 w-4 text-info" /></a
+					>
+				</li>
+				<li class="mt-auto">
 					<a href="https://jellyfin.adavidson.us" rel="external noopener noreferrer" target="_blank"
 						><Music />Jellyfin<ExternalLink class="h-4 w-4 text-info" /></a
 					>
