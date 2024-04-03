@@ -8,8 +8,6 @@
 	<meta name="description" content="A brief history of my work experience" />
 </svelte:head>
 
-<!-- TODO find a better way to list out tools and declutter the timeline -->
-
 <ul class="timeline timeline-vertical timeline-snap-icon max-md:timeline-compact">
 	<TimelineItem
 		date="Feb 2024"
@@ -22,8 +20,8 @@
 	<TimelineItem
 		date="Jan 2022"
 		title="Full-stack Software Engineer"
-		company="Section 31, Unites States Space Force"
-		description="Developed and sustained two full-stack applications for 1200+ space command and control users worldwide."
+		company="Kobayashi Maru, Unites States Space Force"
+		description="As a member of KM's Section 31, developed and sustained two full-stack applications for 1200+ worldwide space command and control users."
 		tools="Kotlin, MySQL, React, Spring Boot, Typescript, Azure Kubernetes Services"
 	/>
 	<TimelineItem
@@ -42,7 +40,7 @@
 	<TimelineItem
 		date="June 2017"
 		title="Robot Programmer Intern"
-		company="RT Leaders"
+		company="Robotics Technology Leaders GmbH"
 		description="Designed and built bespoke robotic cell battery construction machine with 5-member multidisciplinary team, increasing customer safety and productivity"
 		hangLeft
 	/>
