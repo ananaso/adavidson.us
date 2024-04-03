@@ -26,9 +26,7 @@
 		<div
 			class={cn(
 				'text-md divider mb-2 mt-1 font-semibold text-secondary',
-				// TODO can we use divider-start/end with cn?
-				// 	maybe see if not using cn works?
-				hangLeft ? 'divider-start md:divider-end' : 'divider-start'
+				hangLeft ? 'max-md:divider-start md:divider-end' : 'divider-start'
 			)}
 		>
 			{company}
@@ -38,7 +36,7 @@
 			<div
 				class={cn(
 					'divider mb-2 font-semibold',
-					hangLeft ? 'divider-start md:divider-end' : 'divider-start'
+					hangLeft ? 'max-md:divider-start md:divider-end' : 'divider-start'
 				)}
 			>
 				Tools
