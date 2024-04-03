@@ -10,9 +10,9 @@
 	} from 'lucide-svelte';
 	import { page } from '$app/stores';
 	import ThemeController from '$lib/components/ThemeController.svelte';
-</script>
 
-<!-- TODO automatically close navbar after clicking link when on mobile (i.e. sm breakpoint) -->
+	const handleClick = () => document.getElementById('nav-drawer')?.click();
+</script>
 
 <header>
 	<nav class="drawer lg:drawer-open">
@@ -30,26 +30,33 @@
 			<label for="nav-drawer" aria-label="close sidebar" class="drawer-overlay" />
 			<ul class="menu min-h-full w-fit bg-base-200 p-4 text-base-content">
 				<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-					<a href="/"><Home />Home</a>
+					<a on:click={handleClick} href="/"><Home />Home</a>
 				</li>
 				<li aria-current={$page.url.pathname === '/history' ? 'page' : undefined}>
-					<a href="/history"><BriefcaseBusiness />Work History</a>
+					<a on:click={handleClick} href="/history"><BriefcaseBusiness />Work History</a>
 				</li>
 				<li>
-					<a href="https://github.com/ananaso" rel="external noopener noreferrer" target="_blank"
-						><FolderGit />GitHub<ExternalLink class="h-4 w-4 text-info" /></a
+					<a
+						on:click={handleClick}
+						href="https://github.com/ananaso"
+						rel="external noopener noreferrer"
+						target="_blank"><FolderGit />GitHub<ExternalLink class="h-4 w-4 text-info" /></a
 					>
 				</li>
 				<li>
 					<a
+						on:click={handleClick}
 						href="https://www.linkedin.com/in/davidsonalden/"
 						rel="external noopener noreferrer"
 						target="_blank"><SquareUser />LinkedIn<ExternalLink class="h-4 w-4 text-info" /></a
 					>
 				</li>
 				<li class="mt-auto">
-					<a href="https://jellyfin.adavidson.us" rel="external noopener noreferrer" target="_blank"
-						><Music />Jellyfin<ExternalLink class="h-4 w-4 text-info" /></a
+					<a
+						on:click={handleClick}
+						href="https://jellyfin.adavidson.us"
+						rel="external noopener noreferrer"
+						target="_blank"><Music />Jellyfin<ExternalLink class="h-4 w-4 text-info" /></a
 					>
 				</li>
 			</ul>
