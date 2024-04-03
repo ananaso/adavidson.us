@@ -14,6 +14,8 @@
 	const handleClick = () => document.getElementById('nav-drawer')?.click();
 </script>
 
+<!-- TODO bug: navbar stays open by default when shrinking page for the first time? -->
+
 <header>
 	<nav class="drawer lg:drawer-open">
 		<input id="nav-drawer" type="checkbox" class="drawer-toggle" />

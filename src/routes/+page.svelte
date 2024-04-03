@@ -5,12 +5,14 @@
 <!-- # Current Hobbies? -->
 <!-- # Movies? -->
 
-<!-- TODO configure caddy to understand that "/about" == "about.html" (or change svelte to always use trailingSlash) -->
 <!-- TODO figure out who's nagging about missing a favicon.ico -->
 
 <!-- TODO add "contact" page with email -->
 
 <!-- TODO give site a mobile gut-check -->
+
+<!-- TODO check out this prefers-color-scheme thing -->
+<!-- https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme -->
 
 <script>
 	import welcome from '$lib/images/svelte-welcome.webp';
