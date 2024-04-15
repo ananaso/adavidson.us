@@ -11,7 +11,7 @@
 	<input type="checkbox" />
 	<div class="collapse-title text-xl font-medium">About these lists</div>
 	<div class="collapse-content">
-		<p>
+		<p class="pb-2">
 			These days I've caught the audiobook bug, since it allows me to easily listen to/read books
 			while going for a walk or riding my bike (if I'm in a quiet, low-car traffic place), doing
 			chores around the house, running errands, playing Old School Runescape, and so on.
