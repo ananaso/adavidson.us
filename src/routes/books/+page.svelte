@@ -1,7 +1,3 @@
-<script>
-	import { Info } from 'lucide-svelte';
-</script>
-
 <svelte:head>
 	<title>Books</title>
 	<meta name="description" content="(Audio)Books I've read" />
