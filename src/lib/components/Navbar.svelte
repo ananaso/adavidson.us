@@ -1,5 +1,6 @@
 <script>
 	import {
+		BookMarked,
 		BriefcaseBusiness,
 		ExternalLink,
 		FolderGit,
@@ -13,6 +14,8 @@
 
 	const handleClick = () => document.getElementById('nav-drawer')?.click();
 </script>
+
+<!-- TODO make this collapsable to icon-only bar in lg breakpoint -->
 
 <header>
 	<nav class="drawer lg:drawer-open">
@@ -34,6 +37,9 @@
 				</li>
 				<li aria-current={$page.url.pathname === '/history' ? 'page' : undefined}>
 					<a on:click={handleClick} href="/history"><BriefcaseBusiness />Work History</a>
+				</li>
+				<li aria-current={$page.url.pathname === '/books' ? 'page' : undefined}>
+					<a on:click={handleClick} href="/books"><BookMarked />Books</a>
 				</li>
 				<li>
 					<a
