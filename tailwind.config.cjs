@@ -1,6 +1,3 @@
-import * as daisyui from 'daisyui'
-import typography from '@tailwindcss/typography';
-
 /** @type {import('tailwindcss').Config}*/
 module.exports = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
@@ -9,7 +6,7 @@ module.exports = {
 		extend: {}
 	},
 
-	plugins: [typography, daisyui],
+	plugins: [require('@tailwindcss/typography'), require('daisyui')],
 
 	daisyui: {
 		themes: ['retro', 'sunset']
