@@ -1,29 +1,39 @@
 <script>
+	import { Info } from 'lucide-svelte';
 </script>
 
 <svelte:head>
 	<title>Books</title>
 	<meta name="description" content="(Audio)Books I've read" />
 </svelte:head>
-<p>
-	These days I've caught the audiobook bug, since it allows me to easily listen to/read books while
-	going for a walk or riding my bike (if I'm in a quiet, low-car traffic place), doing chores around
-	the house, running errands, playing Old School Runescape, and so on. Essentially, it allows me to
-	read books while accomplishing other mundane tasks or while doing something that doesn't require
-	much brainpower. Some people might not consider it reading - and it isn't in the most literal
-	sense - but it's better than reading books less frequently or not at all and, quite simply, I
-	enjoy listening to stories.
-</p>
-<p>
-	This list isn't complete, of course, but they are the ones I had a record of reading since I got
-	into audiobooks in late 2021 and frankly I'm not too interested right now in dredging through all
-	my memories to list every book I've ever read. So I just plan to add previously-read books
-	whenever they pop back into my head.
-</p>
+
+<div class="collapse bg-base-200">
+	<input type="checkbox" />
+	<div class="collapse-title text-xl font-medium">About these lists</div>
+	<div class="collapse-content">
+		<p>
+			These days I've caught the audiobook bug, since it allows me to easily listen to/read books
+			while going for a walk or riding my bike (if I'm in a quiet, low-car traffic place), doing
+			chores around the house, running errands, playing Old School Runescape, and so on.
+			Essentially, it allows me to read books while accomplishing other mundane tasks or while doing
+			something that doesn't require much brainpower. Some people might not consider it reading -
+			and it isn't in the most literal sense - but it's better than reading books less frequently or
+			not at all and, quite simply, I enjoy listening to stories.
+		</p>
+		<p>
+			This list isn't complete, of course, but they are the ones I had a record of reading since I
+			got into audiobooks in late 2021 and frankly I'm not too interested right now in dredging
+			through all my memories to list every book I've ever read. So I just plan to add
+			previously-read books whenever they pop back into my head.
+		</p>
+	</div>
+</div>
+
+<div class="divider divider-neutral pb-10" />
 
 <div class="overflow-x-auto">
 	<table class="table">
-		<caption>(Audio)Books I'd like to read</caption>
+		<caption class="text-xl">(Audio)Books I'd like to read</caption>
 		<!-- head -->
 		<thead>
 			<tr>
@@ -148,7 +158,7 @@
 
 <div class="overflow-x-auto">
 	<table class="table">
-		<caption>(Audio)Books I've read</caption>
+		<caption class="text-xl">(Audio)Books I've read</caption>
 		<!-- head -->
 		<thead>
 			<tr>
