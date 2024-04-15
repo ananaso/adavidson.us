@@ -131,6 +131,12 @@
 				<td>Science Fiction</td>
 			</tr>
 			<tr>
+				<td><a href="https://share.libbyapp.com/title/326687">A Wizard of Earthsea</a></td>
+				<td>Ursula K. Le Guin</td>
+				<td>Earthsea</td>
+				<td>Fantasy</td>
+			</tr>
+			<tr>
 				<td><a href="https://share.libbyapp.com/title/3784285">The Left Hand of Darkness</a></td>
 				<td>Ursula K. Le Guin</td>
 				<td>Hainish Cycle</td>
