@@ -58,14 +58,6 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/3656598">Bullshit Jobs</a>
-				</td>
-				<td>David Graeber</td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td>
 					<a href="https://www.hoopladigital.com/audiobook/forever-peace-joe-haldeman/13536652"
 						>Forever Peace</a
 					>
@@ -152,6 +144,22 @@
 				<td></td>
 				<td>War Novel</td>
 			</tr>
+			<tr>
+				<td><a href="https://share.libbyapp.com/title/10579130">Escaping the Housing Trap</a></td>
+				<td>Charles L. Marohn, Jr. and Daniel Herriges</td>
+				<td></td>
+				<td>Non-fiction</td>
+			</tr>
+			<tr>
+				<td
+					><a href="https://share.libbyapp.com/title/145493"
+						>Zen and the Art of Motorcycle Maintenance</a
+					></td
+				>
+				<td>Robert M. Pirsig</td>
+				<td></td>
+				<td>Autobiographical Novel</td>
+			</tr>
 		</tbody>
 	</table>
 </div>
@@ -172,6 +180,15 @@
 			</tr>
 		</thead>
 		<tbody>
+			<tr>
+				<td>
+					<a href="https://share.libbyapp.com/title/3656598">Bullshit Jobs</a>
+				</td>
+				<td>David Graeber</td>
+				<td></td>
+				<td>Non-fiction</td>
+				<td>Currently</td>
+			</tr>
 			<tr>
 				<td>
 					<a href="https://share.libbyapp.com/title/554270">Foundation's Edge</a>
