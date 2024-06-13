@@ -35,8 +35,8 @@
 				<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 					<a on:click={handleClick} href="/"><Home />Home</a>
 				</li>
-				<li aria-current={$page.url.pathname === '/history' ? 'page' : undefined}>
-					<a on:click={handleClick} href="/history"><BriefcaseBusiness />Work History</a>
+				<li aria-current={$page.url.pathname === '/resume' ? 'page' : undefined}>
+					<a on:click={handleClick} href="/resume"><BriefcaseBusiness />Resume</a>
 				</li>
 				<li aria-current={$page.url.pathname === '/books' ? 'page' : undefined}>
 					<a on:click={handleClick} href="/books"><BookMarked />Books</a>

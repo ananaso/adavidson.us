@@ -4,9 +4,16 @@
 </script>
 
 <svelte:head>
-	<title>Work History</title>
+	<title>Resume</title>
 	<meta name="description" content="A brief history of my work experience" />
 </svelte:head>
+
+<a
+	role="button"
+	class="btn w-fit md:self-center"
+	href="/resume_adavidson.pdf"
+	download="resume_adavidson.pdf"><ScrollText />Resume<Download class="h-4 w-4 text-info" /></a
+>
 
 <ul class="timeline timeline-vertical timeline-snap-icon max-md:timeline-compact">
 	<TimelineItem
@@ -52,10 +59,3 @@
 		tools="C++, Python"
 	/>
 </ul>
-
-<a
-	role="button"
-	class="btn w-fit md:self-center"
-	href="/resume_adavidson.pdf"
-	download="resume_adavidson.pdf"><ScrollText />Resumé<Download class="h-4 w-4 text-info" /></a
->

@@ -145,12 +145,6 @@
 				<td>War Novel</td>
 			</tr>
 			<tr>
-				<td><a href="https://share.libbyapp.com/title/10579130">Escaping the Housing Trap</a></td>
-				<td>Charles L. Marohn, Jr. and Daniel Herriges</td>
-				<td></td>
-				<td>Non-fiction</td>
-			</tr>
-			<tr>
 				<td
 					><a href="https://share.libbyapp.com/title/145493"
 						>Zen and the Art of Motorcycle Maintenance</a
@@ -181,13 +175,20 @@
 		</thead>
 		<tbody>
 			<tr>
+				<td><a href="https://share.libbyapp.com/title/10579130">Escaping the Housing Trap</a></td>
+				<td>Charles L. Marohn, Jr. and Daniel Herriges</td>
+				<td></td>
+				<td>Non-fiction</td>
+				<td>June 05, 2024</td>
+			</tr>
+			<tr>
 				<td>
 					<a href="https://share.libbyapp.com/title/3656598">Bullshit Jobs</a>
 				</td>
 				<td>David Graeber</td>
 				<td></td>
 				<td>Non-fiction</td>
-				<td>Currently</td>
+				<td>May 28, 2024</td>
 			</tr>
 			<tr>
 				<td>
