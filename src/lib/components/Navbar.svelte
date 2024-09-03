@@ -11,6 +11,7 @@
 	} from 'lucide-svelte';
 	import { page } from '$app/stores';
 	import ThemeController from '$lib/components/ThemeController.svelte';
+	import OutLink from './OutLink.svelte';
 
 	const handleClick = () => document.getElementById('nav-drawer')?.click();
 </script>
@@ -42,27 +43,18 @@
 					<a on:click={handleClick} href="/books"><BookMarked />Books</a>
 				</li>
 				<li>
-					<a
-						on:click={handleClick}
-						href="https://github.com/ananaso"
-						rel="external noopener noreferrer"
-						target="_blank"><FolderGit />GitHub<ExternalLink class="h-4 w-4 text-info" /></a
+					<OutLink on:click={handleClick} url="https://github.com/ananaso" navbar
+						><FolderGit />GitHub<ExternalLink class="h-4 w-4 text-info" /></OutLink
 					>
 				</li>
 				<li>
-					<a
-						on:click={handleClick}
-						href="https://www.linkedin.com/in/davidsonalden/"
-						rel="external noopener noreferrer"
-						target="_blank"><SquareUser />LinkedIn<ExternalLink class="h-4 w-4 text-info" /></a
+					<OutLink on:click={handleClick} url="https://www.linkedin.com/in/davidsonalden/" navbar
+						><SquareUser />LinkedIn<ExternalLink class="h-4 w-4 text-info" /></OutLink
 					>
 				</li>
 				<li class="mt-auto">
-					<a
-						on:click={handleClick}
-						href="https://jellyfin.adavidson.us"
-						rel="external noopener noreferrer"
-						target="_blank"><Music />Jellyfin<ExternalLink class="h-4 w-4 text-info" /></a
+					<OutLink onClick={handleClick} url="https://jellyfin.adavidson.us" navbar
+						><Music />Jellyfin<ExternalLink class="h-4 w-4 text-info" /></OutLink
 					>
 				</li>
 			</ul>

@@ -1,3 +1,7 @@
+<script>
+	import OutLink from "$lib/components/OutLink.svelte";
+
+</script>
 <svelte:head>
 	<title>Books</title>
 	<meta name="description" content="(Audio)Books I've read" />
@@ -42,7 +46,7 @@
 		<tbody>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/554270">Foundation and Earth</a>
+					<OutLink url="https://share.libbyapp.com/title/554270">Foundation and Earth</OutLink>
 				</td>
 				<td>Isaac Asimov</td>
 				<td>Foundation</td>

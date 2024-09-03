@@ -17,22 +17,29 @@
 
 <ul class="timeline timeline-vertical timeline-snap-icon max-md:timeline-compact">
 	<TimelineItem
-		date="Feb 2024"
+		date="August 2024"
+		title="Software Engineer II"
+		company="Rise8"
+		description="Developing a state-of-the-art Risk Management Framework platform for simplifying and streamlining the continuous authority to operate (cATO) process."
+		tools="Java, Material UI, MySQL, Next.js, React, Spring Framework, Typescript"
+	/>
+	<TimelineItem
+		date="February 2024"
 		title="Software Engineer, SkillBridge Internship"
 		company="Sagely"
-		description="Building a social learning platform to guide users' professional learning journeys using AI to curate, organize, and contextualize online content."
+		description="Built a social learning platform to guide users' professional learning journeys using AI to curate, organize, and contextualize online content."
 		tools="GPT, NativeWind, React, React Native, Tailwind CSS, Typescript, Expo Application Services"
 		hangLeft
 	/>
 	<TimelineItem
-		date="Jan 2022"
+		date="January 2022"
 		title="Full-stack Software Engineer"
 		company="Kobayashi Maru, Unites States Space Force"
 		description="As a member of KM's Section 31, developed and sustained two full-stack applications for 1200+ worldwide space command and control users."
 		tools="Kotlin, MySQL, React, Spring Boot, Typescript, Azure Kubernetes Services"
 	/>
 	<TimelineItem
-		date="Nov 2019"
+		date="November 2019"
 		title="Project Manager"
 		company="Unites States Air Force / Space Force"
 		description="Led cross-functional team of eight to manage software projects related to the Advanced Extremely High Frequency satellite constellation."
