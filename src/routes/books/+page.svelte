@@ -1,7 +1,7 @@
 <script>
-	import OutLink from "$lib/components/OutLink.svelte";
-
+	import OutLink from '$lib/components/OutLink.svelte';
 </script>
+
 <svelte:head>
 	<title>Books</title>
 	<meta name="description" content="(Audio)Books I've read" />
@@ -46,24 +46,8 @@
 		<tbody>
 			<tr>
 				<td>
-					<OutLink url="https://share.libbyapp.com/title/554270">Foundation and Earth</OutLink>
-				</td>
-				<td>Isaac Asimov</td>
-				<td>Foundation</td>
-				<td>Science Fiction</td>
-			</tr>
-			<tr>
-				<td>
-					<a href="https://share.libbyapp.com/title/5572118">The End of Eternity</a>
-				</td>
-				<td>Isaac Asimov</td>
-				<td></td>
-				<td>Science Fiction</td>
-			</tr>
-			<tr>
-				<td>
-					<a href="https://www.hoopladigital.com/audiobook/forever-peace-joe-haldeman/13536652"
-						>Forever Peace</a
+					<OutLink url="https://www.hoopladigital.com/audiobook/forever-peace-joe-haldeman/13536652"
+						>Forever Peace</OutLink
 					>
 				</td>
 				<td>Joe Haldeman</td>
@@ -72,8 +56,8 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://www.hoopladigital.com/audiobook/forever-free-joe-haldeman/13520743"
-						>Forever Free</a
+					<OutLink url="https://www.hoopladigital.com/audiobook/forever-free-joe-haldeman/13520743"
+						>Forever Free</OutLink
 					>
 				</td>
 				<td>Joe Haldeman</td>
@@ -82,7 +66,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/347510">The Way of Kings</a>
+					<OutLink url="https://share.libbyapp.com/title/347510">The Way of Kings</OutLink>
 				</td>
 				<td>Brandon Sanderson</td>
 				<td>The Stormlight Archive</td>
@@ -90,58 +74,72 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/3330736">Ball Lightning</a>
+					<OutLink url="https://share.libbyapp.com/title/3330736">Ball Lightning</OutLink>
 				</td>
 				<td>Cixin Liu</td>
 				<td></td>
 				<td>Science Fiction</td>
 			</tr>
 			<tr>
-				<td><a href="https://share.libbyapp.com/title/2475608">The Martian Chronicles</a></td>
+				<td
+					><OutLink url="https://share.libbyapp.com/title/2475608">The Martian Chronicles</OutLink
+					></td
+				>
 				<td>Ray Bradbury</td>
 				<td></td>
 				<td>Science Fiction</td>
 			</tr>
 			<tr>
-				<td><a href="https://share.libbyapp.com/title/352008">The Illustrated Man</a></td>
+				<td><OutLink url="https://share.libbyapp.com/title/352008">The Illustrated Man</OutLink></td
+				>
 				<td>Ray Bradbury</td>
 				<td></td>
 				<td>Science Fiction</td>
 			</tr>
 			<tr>
-				<td><a href="https://share.libbyapp.com/title/5978312">Nightfall and Other Stories</a></td>
+				<td
+					><OutLink url="https://share.libbyapp.com/title/5978312"
+						>Nightfall and Other Stories</OutLink
+					></td
+				>
 				<td>Isaac Asimov</td>
 				<td></td>
 				<td>Science Fiction</td>
 			</tr>
 			<tr>
-				<td><a href="https://share.libbyapp.com/title/2308988">Dune</a></td>
+				<td><OutLink url="https://share.libbyapp.com/title/2308988">Dune</OutLink></td>
 				<td>Frank Herbert</td>
 				<td>Dune</td>
 				<td>Science Fiction</td>
 			</tr>
 			<tr>
-				<td><a href="https://share.libbyapp.com/title/1550522">Red Rising</a></td>
+				<td><OutLink url="https://share.libbyapp.com/title/1550522">Red Rising</OutLink></td>
 				<td>Pierce Brown</td>
 				<td>Red Rising</td>
 				<td>Science Fiction</td>
 			</tr>
 			<tr>
-				<td><a href="https://share.libbyapp.com/title/326687">A Wizard of Earthsea</a></td>
+				<td
+					><OutLink url="https://share.libbyapp.com/title/326687">A Wizard of Earthsea</OutLink></td
+				>
 				<td>Ursula K. Le Guin</td>
 				<td>Earthsea</td>
 				<td>Fantasy</td>
 			</tr>
 			<tr>
-				<td><a href="https://share.libbyapp.com/title/3784285">The Left Hand of Darkness</a></td>
+				<td
+					><OutLink url="https://share.libbyapp.com/title/3784285"
+						>The Left Hand of Darkness</OutLink
+					></td
+				>
 				<td>Ursula K. Le Guin</td>
 				<td>Hainish Cycle</td>
 				<td>Science Fiction</td>
 			</tr>
 			<tr>
 				<td
-					><a href="https://play.google.com/store/audiobooks/details?id=AQAAAIDg8jxyzM"
-						>Im Westen Nichts Neues</a
+					><OutLink url="https://play.google.com/store/audiobooks/details?id=AQAAAIDg8jxyzM"
+						>Im Westen Nichts Neues</OutLink
 					></td
 				>
 				<td>Erich Maria Remarque</td>
@@ -150,8 +148,8 @@
 			</tr>
 			<tr>
 				<td
-					><a href="https://share.libbyapp.com/title/145493"
-						>Zen and the Art of Motorcycle Maintenance</a
+					><OutLink url="https://share.libbyapp.com/title/145493"
+						>Zen and the Art of Motorcycle Maintenance</OutLink
 					></td
 				>
 				<td>Robert M. Pirsig</td>
@@ -179,7 +177,29 @@
 		</thead>
 		<tbody>
 			<tr>
-				<td><a href="https://share.libbyapp.com/title/10579130">Escaping the Housing Trap</a></td>
+				<td>
+					<OutLink url="https://share.libbyapp.com/title/5572118">The End of Eternity</OutLink>
+				</td>
+				<td>Isaac Asimov</td>
+				<td></td>
+				<td>Science Fiction</td>
+				<td>July 29, 2024</td>
+			</tr>
+			<tr>
+				<td>
+					<OutLink url="https://share.libbyapp.com/title/554270">Foundation and Earth</OutLink>
+				</td>
+				<td>Isaac Asimov</td>
+				<td>Foundation</td>
+				<td>Science Fiction</td>
+				<td>July 22, 2024</td>
+			</tr>
+			<tr>
+				<td
+					><OutLink url="https://share.libbyapp.com/title/10579130"
+						>Escaping the Housing Trap</OutLink
+					></td
+				>
 				<td>Charles L. Marohn, Jr. and Daniel Herriges</td>
 				<td></td>
 				<td>Non-fiction</td>
@@ -187,7 +207,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/3656598">Bullshit Jobs</a>
+					<OutLink url="https://share.libbyapp.com/title/3656598">Bullshit Jobs</OutLink>
 				</td>
 				<td>David Graeber</td>
 				<td></td>
@@ -196,7 +216,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/554270">Foundation's Edge</a>
+					<OutLink url="https://share.libbyapp.com/title/554270">Foundation's Edge</OutLink>
 				</td>
 				<td>Isaac Asimov</td>
 				<td>Foundation</td>
@@ -205,7 +225,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/306429">Second Foundation</a>
+					<OutLink url="https://share.libbyapp.com/title/306429">Second Foundation</OutLink>
 				</td>
 				<td>Isaac Asimov</td>
 				<td>Foundation</td>
@@ -214,7 +234,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/306412">Foundation and Empire</a>
+					<OutLink url="https://share.libbyapp.com/title/306412">Foundation and Empire</OutLink>
 				</td>
 				<td>Isaac Asimov</td>
 				<td>Foundation</td>
@@ -223,7 +243,9 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/9611925">Ours Was the Shining Future</a>
+					<OutLink url="https://share.libbyapp.com/title/9611925"
+						>Ours Was the Shining Future</OutLink
+					>
 				</td>
 				<td>David Leonhardt</td>
 				<td></td>
@@ -232,7 +254,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/306411">Foundation</a>
+					<OutLink url="https://share.libbyapp.com/title/306411">Foundation</OutLink>
 				</td>
 				<td>Isaac Asimov</td>
 				<td>Foundation</td>
@@ -241,7 +263,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/554268">Forward the Foundation</a>
+					<OutLink url="https://share.libbyapp.com/title/554268">Forward the Foundation</OutLink>
 				</td>
 				<td>Isaac Asimov</td>
 				<td>Foundation</td>
@@ -250,7 +272,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/554272">Prelude to Foundation</a>
+					<OutLink url="https://share.libbyapp.com/title/554272">Prelude to Foundation</OutLink>
 				</td>
 				<td>Isaac Asimov</td>
 				<td>Foundation</td>
@@ -259,7 +281,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/207410">Pebble in the Sky</a>
+					<OutLink url="https://share.libbyapp.com/title/207410">Pebble in the Sky</OutLink>
 				</td>
 				<td>Isaac Asimov</td>
 				<td>Galactic Empire</td>
@@ -268,7 +290,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/226326">The Currents of Space</a>
+					<OutLink url="https://share.libbyapp.com/title/226326">The Currents of Space</OutLink>
 				</td>
 				<td>Isaac Asimov</td>
 				<td>Galactic Empire</td>
@@ -277,7 +299,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/4300891">The Redemption of Time</a>
+					<OutLink url="https://share.libbyapp.com/title/4300891">The Redemption of Time</OutLink>
 				</td>
 				<td>Baoshu</td>
 				<td>Remembrance of Earth's Past</td>
@@ -286,7 +308,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/5572249">The Stars, Like Dust</a>
+					<OutLink url="https://share.libbyapp.com/title/5572249">The Stars, Like Dust</OutLink>
 				</td>
 				<td>Isaac Asimov</td>
 				<td>Galactic Empire</td>
@@ -295,7 +317,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/509200">New Spring</a>
+					<OutLink url="https://share.libbyapp.com/title/509200">New Spring</OutLink>
 				</td>
 				<td>Robert Jordan</td>
 				<td>The Wheel of Time</td>
@@ -304,7 +326,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/1508704">The Robots of Dawn</a>
+					<OutLink url="https://share.libbyapp.com/title/1508704">The Robots of Dawn</OutLink>
 				</td>
 				<td>Isaac Asimov</td>
 				<td>Robot</td>
@@ -313,7 +335,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/1508703">The Naked Sun</a>
+					<OutLink url="https://share.libbyapp.com/title/1508703">The Naked Sun</OutLink>
 				</td>
 				<td>Isaac Asimov</td>
 				<td>Robot</td>
@@ -322,7 +344,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/1172258">A Memory of Light</a>
+					<OutLink url="https://share.libbyapp.com/title/1172258">A Memory of Light</OutLink>
 				</td>
 				<td>Robert Jordan, Brandon Sanderson</td>
 				<td>The Wheel of Time</td>
@@ -331,7 +353,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/451873">Towers of Midnight</a>
+					<OutLink url="https://share.libbyapp.com/title/451873">Towers of Midnight</OutLink>
 				</td>
 				<td>Robert Jordan, Brandon Sanderson</td>
 				<td>The Wheel of Time</td>
@@ -340,7 +362,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/266320">The Gathering Storm</a>
+					<OutLink url="https://share.libbyapp.com/title/266320">The Gathering Storm</OutLink>
 				</td>
 				<td>Robert Jordan, Brandon Sanderson</td>
 				<td>The Wheel of Time</td>
@@ -349,7 +371,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/509198">Knife of Dreams</a>
+					<OutLink url="https://share.libbyapp.com/title/509198">Knife of Dreams</OutLink>
 				</td>
 				<td>Robert Jordan</td>
 				<td>The Wheel of Time</td>
@@ -358,7 +380,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/509192">Crossroads of Twilight</a>
+					<OutLink url="https://share.libbyapp.com/title/509192">Crossroads of Twilight</OutLink>
 				</td>
 				<td>Robert Jordan</td>
 				<td>The Wheel of Time</td>
@@ -367,7 +389,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/1508696">The Caves of Steel</a>
+					<OutLink url="https://share.libbyapp.com/title/1508696">The Caves of Steel</OutLink>
 				</td>
 				<td>Isaac Asimov</td>
 				<td>Robot</td>
@@ -376,7 +398,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/509214">Winter's Heart</a>
+					<OutLink url="https://share.libbyapp.com/title/509214">Winter's Heart</OutLink>
 				</td>
 				<td>Robert Jordan</td>
 				<td>The Wheel of Time</td>
@@ -385,7 +407,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/105225">I, Robot</a>
+					<OutLink url="https://share.libbyapp.com/title/105225">I, Robot</OutLink>
 				</td>
 				<td>Isaac Asimov</td>
 				<td>Robot</td>
@@ -394,7 +416,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/3783931">Robot Visions</a>
+					<OutLink url="https://share.libbyapp.com/title/3783931">Robot Visions</OutLink>
 				</td>
 				<td>Isaac Asimov</td>
 				<td>Robot</td>
@@ -403,7 +425,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/509212">The Path of Daggers</a>
+					<OutLink url="https://share.libbyapp.com/title/509212">The Path of Daggers</OutLink>
 				</td>
 				<td>Robert Jordan</td>
 				<td>The Wheel of Time</td>
@@ -412,7 +434,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/1943653">Robot Dreams</a>
+					<OutLink url="https://share.libbyapp.com/title/1943653">Robot Dreams</OutLink>
 				</td>
 				<td>Isaac Asimov</td>
 				<td>Robot</td>
@@ -421,7 +443,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/509188">A Crown of Swords</a>
+					<OutLink url="https://share.libbyapp.com/title/509188">A Crown of Swords</OutLink>
 				</td>
 				<td>Robert Jordan</td>
 				<td>The Wheel of Time</td>
@@ -430,7 +452,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/509199">Lord of Chaos</a>
+					<OutLink url="https://share.libbyapp.com/title/509199">Lord of Chaos</OutLink>
 				</td>
 				<td>Robert Jordan</td>
 				<td>The Wheel of Time</td>
@@ -439,7 +461,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/509207">The Fires of Heaven</a>
+					<OutLink url="https://share.libbyapp.com/title/509207">The Fires of Heaven</OutLink>
 				</td>
 				<td>Robert Jordan</td>
 				<td>The Wheel of Time</td>
@@ -448,8 +470,9 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://www.hoopladigital.com/audiobook/the-forever-war-joe-haldeman/13536166"
-						>The Forever War</a
+					<OutLink
+						url="https://www.hoopladigital.com/audiobook/the-forever-war-joe-haldeman/13536166"
+						>The Forever War</OutLink
 					>
 				</td>
 				<td>Joe Haldeman</td>
@@ -459,7 +482,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/509213">The Shadow Rising</a>
+					<OutLink url="https://share.libbyapp.com/title/509213">The Shadow Rising</OutLink>
 				</td>
 				<td>Robert Jordan</td>
 				<td>The Wheel of Time</td>
@@ -468,7 +491,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/509205">The Dragon Reborn</a>
+					<OutLink url="https://share.libbyapp.com/title/509205">The Dragon Reborn</OutLink>
 				</td>
 				<td>Robert Jordan</td>
 				<td>The Wheel of Time</td>
@@ -477,7 +500,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/509208">The Great Hunt</a>
+					<OutLink url="https://share.libbyapp.com/title/509208">The Great Hunt</OutLink>
 				</td>
 				<td>Robert Jordan</td>
 				<td>The Wheel of Time</td>
@@ -486,7 +509,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/509206">The Eye of the World</a>
+					<OutLink url="https://share.libbyapp.com/title/509206">The Eye of the World</OutLink>
 				</td>
 				<td>Robert Jordan</td>
 				<td>The Wheel of Time</td>
@@ -495,8 +518,8 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://www.hoopladigital.com/audiobook/deaths-end-cixin-liu/13613748"
-						>Death's End</a
+					<OutLink url="https://www.hoopladigital.com/audiobook/deaths-end-cixin-liu/13613748"
+						>Death's End</OutLink
 					>
 				</td>
 				<td>Cixin Liu</td>
@@ -506,8 +529,8 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://www.hoopladigital.com/audiobook/the-dark-forest-cixin-liu/13613749"
-						>The Dark Forest</a
+					<OutLink url="https://www.hoopladigital.com/audiobook/the-dark-forest-cixin-liu/13613749"
+						>The Dark Forest</OutLink
 					>
 				</td>
 				<td>Cixin Liu</td>
@@ -517,7 +540,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/4581829">The Secret Commonwealth</a>
+					<OutLink url="https://share.libbyapp.com/title/4581829">The Secret Commonwealth</OutLink>
 				</td>
 				<td>Philip Pullman</td>
 				<td>The Book of Dust</td>
@@ -526,7 +549,7 @@
 			</tr>
 			<tr>
 				<td>
-					<a href="https://share.libbyapp.com/title/3136134">La Belle Sauvage</a>
+					<OutLink url="https://share.libbyapp.com/title/3136134">La Belle Sauvage</OutLink>
 				</td>
 				<td>Philip Pullman</td>
 				<td>The Book of Dust</td>
@@ -535,9 +558,9 @@
 			</tr>
 			<tr>
 				<td>
-					<a
-						href="https://www.hoopladigital.com/audiobook/the-three-body-problem-cixin-liu/12255799"
-						>The Three-Body Problem</a
+					<OutLink
+						url="https://www.hoopladigital.com/audiobook/the-three-body-problem-cixin-liu/12255799"
+						>The Three-Body Problem</OutLink
 					>
 				</td>
 				<td>Cixin Liu</td>
