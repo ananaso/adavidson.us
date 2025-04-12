@@ -1,5 +1,6 @@
 <script>
 	import OutLink from '$lib/components/OutLink.svelte';
+	import ToRead from './ToRead.svelte';
 </script>
 
 <svelte:head>
@@ -44,118 +45,99 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr>
-				<td>
-					<OutLink url="https://www.hoopladigital.com/audiobook/forever-peace-joe-haldeman/13536652"
-						>Forever Peace</OutLink
-					>
-				</td>
-				<td>Joe Haldeman</td>
-				<td>Forever War</td>
-				<td>Science Fiction</td>
-			</tr>
-			<tr>
-				<td>
-					<OutLink url="https://www.hoopladigital.com/audiobook/forever-free-joe-haldeman/13520743"
-						>Forever Free</OutLink
-					>
-				</td>
-				<td>Joe Haldeman</td>
-				<td>Forever War</td>
-				<td>Science Fiction</td>
-			</tr>
-			<tr>
-				<td>
-					<OutLink url="https://share.libbyapp.com/title/347510">The Way of Kings</OutLink>
-				</td>
-				<td>Brandon Sanderson</td>
-				<td>The Stormlight Archive</td>
-				<td>Fantasy</td>
-			</tr>
-			<tr>
-				<td>
-					<OutLink url="https://share.libbyapp.com/title/3330736">Ball Lightning</OutLink>
-				</td>
-				<td>Cixin Liu</td>
-				<td></td>
-				<td>Science Fiction</td>
-			</tr>
-			<tr>
-				<td
-					><OutLink url="https://share.libbyapp.com/title/2475608">The Martian Chronicles</OutLink
-					></td
-				>
-				<td>Ray Bradbury</td>
-				<td></td>
-				<td>Science Fiction</td>
-			</tr>
-			<tr>
-				<td><OutLink url="https://share.libbyapp.com/title/352008">The Illustrated Man</OutLink></td
-				>
-				<td>Ray Bradbury</td>
-				<td></td>
-				<td>Science Fiction</td>
-			</tr>
-			<tr>
-				<td
-					><OutLink url="https://share.libbyapp.com/title/5978312"
-						>Nightfall and Other Stories</OutLink
-					></td
-				>
-				<td>Isaac Asimov</td>
-				<td></td>
-				<td>Science Fiction</td>
-			</tr>
-			<tr>
-				<td><OutLink url="https://share.libbyapp.com/title/2308988">Dune</OutLink></td>
-				<td>Frank Herbert</td>
-				<td>Dune</td>
-				<td>Science Fiction</td>
-			</tr>
-			<tr>
-				<td><OutLink url="https://share.libbyapp.com/title/1550522">Red Rising</OutLink></td>
-				<td>Pierce Brown</td>
-				<td>Red Rising</td>
-				<td>Science Fiction</td>
-			</tr>
-			<tr>
-				<td
-					><OutLink url="https://share.libbyapp.com/title/326687">A Wizard of Earthsea</OutLink></td
-				>
-				<td>Ursula K. Le Guin</td>
-				<td>Earthsea</td>
-				<td>Fantasy</td>
-			</tr>
-			<tr>
-				<td
-					><OutLink url="https://share.libbyapp.com/title/3784285"
-						>The Left Hand of Darkness</OutLink
-					></td
-				>
-				<td>Ursula K. Le Guin</td>
-				<td>Hainish Cycle</td>
-				<td>Science Fiction</td>
-			</tr>
-			<tr>
-				<td
-					><OutLink url="https://play.google.com/store/audiobooks/details?id=AQAAAIDg8jxyzM"
-						>Im Westen Nichts Neues</OutLink
-					></td
-				>
-				<td>Erich Maria Remarque</td>
-				<td></td>
-				<td>War Novel</td>
-			</tr>
-			<tr>
-				<td
-					><OutLink url="https://share.libbyapp.com/title/145493"
-						>Zen and the Art of Motorcycle Maintenance</OutLink
-					></td
-				>
-				<td>Robert M. Pirsig</td>
-				<td></td>
-				<td>Autobiographical Novel</td>
-			</tr>
+			<ToRead
+				title={'Forever Peace'}
+				author={'Joe Haldeman'}
+				series={'Forever War'}
+				genre={'Science Fiction'}
+				url={'https://www.hoopladigital.com/audiobook/forever-peace-joe-haldeman/13536652'}
+			/>
+
+			<ToRead
+				title={'Forever Free'}
+				author={'Joe Haldeman'}
+				series={'Forever War'}
+				genre={'Science Fiction'}
+				url={'https://www.hoopladigital.com/audiobook/forever-free-joe-haldeman/13520743'}
+			/>
+			<ToRead
+				title={'The Way of Kings'}
+				author={'Brandon Sanderson'}
+				series={'The Stormlight Archive'}
+				genre={'Fantasy'}
+				url={'https://share.libbyapp.com/title/347510'}
+			/>
+			<ToRead
+				title={'Ball Lightning'}
+				author={'Cixin Liu'}
+				genre={'Science Fiction'}
+				url={'https://share.libbyapp.com/title/3330736'}
+			/>
+			<ToRead
+				title={'The Martian Chronicles'}
+				author={'Ray Bradbury'}
+				genre={'Science Fiction'}
+				url={'https://share.libbyapp.com/title/2475608'}
+			/>
+			<ToRead
+				title={'The Illustrated Man'}
+				author={'Ray Bradbury'}
+				genre={'Science Fiction'}
+				url={'https://share.libbyapp.com/title/352008'}
+			/>
+			<ToRead
+				title={'Nightfall and Other Stories'}
+				author={'Isaac Asimov'}
+				genre={'Science Fiction'}
+				url={'https://share.libbyapp.com/title/5978312'}
+			/>
+			<ToRead
+				title={'Dune'}
+				author={'Frank Herbert'}
+				series={'Dune'}
+				genre={'Science Fiction'}
+				url={'https://share.libbyapp.com/title/2308988'}
+			/>
+			<ToRead
+				title={'Red Rising'}
+				author={'Pierce Brown'}
+				series={'Red Rising'}
+				genre={'Science Fiction'}
+				url={'https://share.libbyapp.com/title/1550522'}
+			/>
+			<ToRead
+				title={'A Wizard of Earthsea'}
+				author={'Ursula K. Le Guin'}
+				series={'Earthsea'}
+				genre={'Fantasy'}
+				url={'https://share.libbyapp.com/title/326687'}
+			/>
+			<ToRead
+				title={'The Left Hand of Darkness'}
+				author={'Ursula K. Le Guin'}
+				series={'Hainish Cycle'}
+				genre={'Science Fiction'}
+				url={'https://share.libbyapp.com/title/3784285'}
+			/>
+			<ToRead
+				title={'Im Westen Nichts Neues'}
+				author={'Erich Maria Remarque'}
+				genre={'War Novel'}
+				url={'https://play.google.com/store/audiobooks/details?id=AQAAAIDg8jxyzM'}
+			/>
+			<ToRead
+				title={'Zen and the Art of Motorcycle Maintenance'}
+				author={'Robert M. Pirsig'}
+				genre={'Autobiographical Novel'}
+				url={'https://share.libbyapp.com/title/145493'}
+			/>
+			<ToRead
+				title={'Consider Phlebas'}
+				author={'Iain M. Banks'}
+				series={'The Culture'}
+				genre={'Science Fiction'}
+				url={'https://share.libbyapp.com/title/605039'}
+			/>
 		</tbody>
 	</table>
 </div>
