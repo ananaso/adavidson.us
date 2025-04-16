@@ -10,14 +10,7 @@
 		hangLeft?: boolean;
 	}
 
-	let {
-		date,
-		title,
-		company,
-		description,
-		tools = undefined,
-		hangLeft = false
-	}: Props = $props();
+	let { date, title, company, description, tools = undefined, hangLeft = false }: Props = $props();
 </script>
 
 <li>
@@ -33,10 +26,10 @@
 	</div>
 	<div class={cn('timeline-end mb-10 md:mb-6', hangLeft && 'md:timeline-start md:text-end')}>
 		<time class="font-mono italic">{date}</time>
-		<div class="text-lg font-bold text-primary">{title}</div>
+		<div class="text-primary text-lg font-bold">{title}</div>
 		<div
 			class={cn(
-				'text-md divider mb-2 mt-1 font-semibold text-secondary',
+				'text-md divider text-secondary mt-1 mb-2 font-semibold',
 				hangLeft ? 'max-md:divider-start md:divider-end' : 'divider-start'
 			)}
 		>
