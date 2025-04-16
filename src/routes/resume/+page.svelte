@@ -12,7 +12,7 @@
 	role="button"
 	class="btn w-fit md:self-center"
 	href="/resume_adavidson.pdf"
-	download="resume_adavidson.pdf"><ScrollText />Resume<Download class="h-4 w-4 text-info" /></a
+	download="resume_adavidson.pdf"><ScrollText />Resume<Download class="text-info h-4 w-4" /></a
 >
 
 <ul class="timeline timeline-vertical timeline-snap-icon max-md:timeline-compact">
@@ -66,3 +66,9 @@
 		tools="C++, Python"
 	/>
 </ul>
+
+<style>
+	a:hover {
+		text-decoration: none;
+	}
+</style>

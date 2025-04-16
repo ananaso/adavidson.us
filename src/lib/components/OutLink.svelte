@@ -16,5 +16,6 @@
 	rel="external noopener noreferrer"
 	target="_blank"
 	{onclick}
-	style={navbar ? 'color: oklch(var(--bc)); text-decoration: none' : ''}>{@render children?.()}</a
+	style={navbar ? 'color: var(--color-base-content); text-decoration: none' : ''}
+	>{@render children?.()}</a
 >

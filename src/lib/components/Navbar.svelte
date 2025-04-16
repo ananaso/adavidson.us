@@ -36,7 +36,7 @@
 		</div>
 		<div class="drawer-side">
 			<label for="nav-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
-			<ul class="menu min-h-full w-fit bg-base-200 p-4 text-base-content">
+			<ul class="menu bg-base-200 text-base-content min-h-full w-fit p-4">
 				<li aria-current={page.url.pathname === '/' ? 'page' : undefined}>
 					<a {onclick} href="/"><Home />Home</a>
 				</li>
@@ -48,17 +48,17 @@
 				</li>
 				<li>
 					<OutLink {onclick} url="https://github.com/ananaso" navbar
-						><FolderGit />GitHub<ExternalLink class="h-4 w-4 text-info" /></OutLink
+						><FolderGit />GitHub<ExternalLink class="text-info h-4 w-4" /></OutLink
 					>
 				</li>
 				<li>
 					<OutLink {onclick} url="https://www.linkedin.com/in/davidsonalden/" navbar
-						><SquareUser />LinkedIn<ExternalLink class="h-4 w-4 text-info" /></OutLink
+						><SquareUser />LinkedIn<ExternalLink class="text-info h-4 w-4" /></OutLink
 					>
 				</li>
 				<li class="mt-auto">
 					<OutLink {onclick} url="https://jellyfin.adavidson.us" navbar
-						><Music />Jellyfin<ExternalLink class="h-4 w-4 text-info" /></OutLink
+						><Music />Jellyfin<ExternalLink class="text-info h-4 w-4" /></OutLink
 					>
 				</li>
 			</ul>
@@ -68,7 +68,7 @@
 
 <style>
 	a {
-		color: oklch(var(--bc));
+		color: var(--color-base-content);
 	}
 
 	a:hover {
