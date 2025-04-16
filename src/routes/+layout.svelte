@@ -1,5 +1,4 @@
 <script lang="ts">
-	import '../app.pcss';
 	import Navbar from '$lib/components/Navbar.svelte';
 	import './styles.css';
 
