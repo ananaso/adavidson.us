@@ -1,12 +1,23 @@
 <script lang="ts">
 	import { cn } from '$lib/util/cn';
 
-	export let date: string;
-	export let title: string;
-	export let company: string;
-	export let description: string;
-	export let tools: string | undefined = undefined;
-	export let hangLeft: boolean = false;
+	interface Props {
+		date: string;
+		title: string;
+		company: string;
+		description: string;
+		tools?: string | undefined;
+		hangLeft?: boolean;
+	}
+
+	let {
+		date,
+		title,
+		company,
+		description,
+		tools = undefined,
+		hangLeft = false
+	}: Props = $props();
 </script>
 
 <li>

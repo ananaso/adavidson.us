@@ -5,9 +5,9 @@
 	const lightTheme = 'retro';
 	const darkTheme = 'sunset';
 
-	const themeTranslate = (genericName: string) => {
+	function themeTranslate(genericName: string) {
 		return genericName === 'light' ? lightTheme : darkTheme;
-	};
+	}
 
 	onMount(() => {
 		theme.subscribe((value) => {
@@ -23,7 +23,7 @@
 		class="theme-controller"
 		value={darkTheme}
 		checked={themeTranslate($theme) === darkTheme}
-		on:click={toggleTheme}
+		onclick={toggleTheme}
 	/>
 
 	<!-- sun icon -->
