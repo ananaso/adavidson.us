@@ -8,7 +8,7 @@
 	<meta name="description" content="(Audio)Books I've read" />
 </svelte:head>
 
-<div class="collapse bg-base-200">
+<div class="bg-base-200 collapse">
 	<input type="checkbox" />
 	<div class="collapse-title text-xl font-medium">About these lists</div>
 	<div class="collapse-content">
@@ -52,7 +52,6 @@
 				genre={'Science Fiction'}
 				url={'https://www.hoopladigital.com/audiobook/forever-peace-joe-haldeman/13536652'}
 			/>
-
 			<Book
 				title={'Forever Free'}
 				author={'Joe Haldeman'}
@@ -84,12 +83,6 @@
 				author={'Ray Bradbury'}
 				genre={'Science Fiction'}
 				url={'https://share.libbyapp.com/title/352008'}
-			/>
-			<Book
-				title={'Nightfall and Other Stories'}
-				author={'Isaac Asimov'}
-				genre={'Science Fiction'}
-				url={'https://share.libbyapp.com/title/5978312'}
 			/>
 			<Book
 				title={'Dune'}
@@ -138,6 +131,12 @@
 				genre={'Science Fiction'}
 				url={'https://share.libbyapp.com/title/605039'}
 			/>
+			<Book
+				title={'How the Railways Will Fix the Future: Rediscovering the Essential Brilliance of the Iron Road'}
+				author={'Gareth Dennis'}
+				genre={'Non-fiction'}
+				url={'https://www.amazon.com/How-Railways-Will-Future-Rediscovering/dp/B0DMPMY3KX'}
+			/>
 		</tbody>
 	</table>
 </div>
@@ -158,6 +157,13 @@
 			</tr>
 		</thead>
 		<tbody>
+			<Book
+				title={'Nightfall and Other Stories'}
+				author={'Isaac Asimov'}
+				genre={'Science Fiction'}
+				lastRead={'April 23, 2025'}
+				url={'https://libro.fm/audiobooks/9780593416358-nightfall-and-other-stories'}
+			/>
 			<Book
 				title={'The End of Eternity'}
 				author={'Isaac Asimov'}
