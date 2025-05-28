@@ -5,7 +5,7 @@
 		title: string;
 		author: string;
 		series?: string;
-		genre?: string;
+		genre?: 'Autobiographical Novel' | 'Fantasy' | 'Non-fiction' | 'Science Fiction' | 'War Novel';
 		lastRead?: string;
 		url?: string;
 	}

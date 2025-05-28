@@ -46,20 +46,6 @@
 		</thead>
 		<tbody>
 			<Book
-				title={'Forever Peace'}
-				author={'Joe Haldeman'}
-				series={'Forever War'}
-				genre={'Science Fiction'}
-				url={'https://www.hoopladigital.com/audiobook/forever-peace-joe-haldeman/13536652'}
-			/>
-			<Book
-				title={'Forever Free'}
-				author={'Joe Haldeman'}
-				series={'Forever War'}
-				genre={'Science Fiction'}
-				url={'https://www.hoopladigital.com/audiobook/forever-free-joe-haldeman/13520743'}
-			/>
-			<Book
 				title={'The Way of Kings'}
 				author={'Brandon Sanderson'}
 				series={'The Stormlight Archive'}
@@ -99,11 +85,11 @@
 				url={'https://share.libbyapp.com/title/1550522'}
 			/>
 			<Book
-				title={'A Wizard of Earthsea'}
+				title={'The Tombs of Atuan'}
 				author={'Ursula K. Le Guin'}
 				series={'Earthsea'}
 				genre={'Fantasy'}
-				url={'https://share.libbyapp.com/title/326687'}
+				url={'https://share.libbyapp.com/title/2394243'}
 			/>
 			<Book
 				title={'The Left Hand of Darkness'}
@@ -158,11 +144,49 @@
 		</thead>
 		<tbody>
 			<Book
+				title={'A Wizard of Earthsea'}
+				author={'Ursula K. Le Guin'}
+				series={'Earthsea'}
+				genre={'Fantasy'}
+				lastRead={'May 22, 2025'}
+				url={'https://share.libbyapp.com/title/326687'}
+			/>
+			<Book
+				title={'Forever Free'}
+				author={'Joe Haldeman'}
+				series={'Forever War'}
+				genre={'Science Fiction'}
+				lastRead={'May 18, 2025'}
+				url={'https://libro.fm/audiobooks/9781501938795-forever-free'}
+			/>
+			<Book
+				title={'Forever Peace'}
+				author={'Joe Haldeman'}
+				series={'Forever War'}
+				genre={'Science Fiction'}
+				lastRead={'May 14, 2025'}
+				url={'https://share.libbyapp.com/title/2822708'}
+			/>
+			<Book
+				title={'Because Internet'}
+				author={'Gretchen McCulloch'}
+				genre={'Non-fiction'}
+				lastRead={'May 05, 2025'}
+				url={'https://share.libbyapp.com/title/3602388'}
+			/>
+			<Book
 				title={'Nightfall and Other Stories'}
 				author={'Isaac Asimov'}
 				genre={'Science Fiction'}
 				lastRead={'April 23, 2025'}
 				url={'https://libro.fm/audiobooks/9780593416358-nightfall-and-other-stories'}
+			/>
+			<Book
+				title={'Lean Enterprise'}
+				author={"Jez Humble, Joanne Molesky, & Barry O'Reilly"}
+				genre={'Non-fiction'}
+				lastRead={'January 16, 2025'}
+				url={'https://libro.fm/audiobooks/9781705223444-lean-enterprise'}
 			/>
 			<Book
 				title={'The End of Eternity'}
