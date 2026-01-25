@@ -18,7 +18,7 @@
 <ul class="timeline timeline-vertical timeline-snap-icon max-md:timeline-compact">
 	<TimelineItem
 		date="August 2024"
-		title="Software Engineer II"
+		title="Software Engineer"
 		company="Rise8"
 		description="Developing a state-of-the-art Risk Management Framework platform for simplifying and streamlining the continuous authority to operate (cATO) process."
 		tools="Java, Material UI, MySQL, Next.js, React, Spring Framework, Typescript"

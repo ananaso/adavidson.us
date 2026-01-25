@@ -24,7 +24,7 @@
 			/>
 		</svg>
 	</div>
-	<div class={cn('timeline-end mb-10 md:mb-6', hangLeft && 'md:timeline-start md:text-end')}>
+	<div class={cn('mb-10 md:mb-6', hangLeft ? 'timeline-start md:text-end' : 'timeline-end')}>
 		<time class="font-mono italic">{date}</time>
 		<div class="text-primary text-lg font-bold">{title}</div>
 		<div
