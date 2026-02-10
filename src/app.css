@@ -1,0 +1,8 @@
+/* Write your global styles here, in PostCSS syntax */
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+@plugin "daisyui" {
+	themes:
+		autumn --default,
+		sunset --prefersdark;
+}

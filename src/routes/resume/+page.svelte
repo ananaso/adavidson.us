@@ -1,6 +1,7 @@
 <script>
-	import TimelineItem from '$lib/components/TimelineItem.svelte';
-	import { ScrollText, Download } from 'lucide-svelte';
+	import { asset } from "$app/paths"
+	import TimelineItem from "$lib/components/TimelineItem.svelte"
+	import { Download, ScrollText } from "@lucide/svelte"
 </script>
 
 <svelte:head>
@@ -11,14 +12,17 @@
 <a
 	role="button"
 	class="btn w-fit md:self-center"
-	href="/resume_adavidson.pdf"
-	download="resume_adavidson.pdf"><ScrollText />Resume<Download class="h-4 w-4 text-info" /></a
+	href={asset("/resume_adavidson.pdf")}
+	download="resume_adavidson.pdf"
+	><ScrollText />Resume<Download class="text-info h-4 w-4" /></a
 >
 
-<ul class="timeline timeline-vertical timeline-snap-icon max-md:timeline-compact">
+<ul
+	class="timeline timeline-vertical timeline-snap-icon max-md:timeline-compact"
+>
 	<TimelineItem
 		date="August 2024"
-		title="Software Engineer II"
+		title="Software Engineer"
 		company="Rise8"
 		description="Developing a state-of-the-art Risk Management Framework platform for simplifying and streamlining the continuous authority to operate (cATO) process."
 		tools="Java, Material UI, MySQL, Next.js, React, Spring Framework, Typescript"
@@ -66,3 +70,9 @@
 		tools="C++, Python"
 	/>
 </ul>
+
+<style>
+	a:hover {
+		text-decoration: none;
+	}
+</style>

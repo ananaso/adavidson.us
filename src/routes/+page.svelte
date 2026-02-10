@@ -1,6 +1,5 @@
 <!-- TODO: create some sort of list of things to showcase? -->
 <!-- # Current (audio)book? -->
-<!-- # List of other (aduio)books I've read? -->
 <!-- # Current Hobbies? -->
 <!-- # Movies? -->
 
@@ -14,8 +13,8 @@
 <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme -->
 
 <script>
-	import welcome from '$lib/images/svelte-welcome.webp';
-	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	import welcome from "$lib/images/svelte-welcome.webp"
+	import welcome_fallback from "$lib/images/svelte-welcome.png"
 </script>
 
 <svelte:head>
@@ -33,13 +32,16 @@
 		</span>
 	</h1>
 
-	<p class="text-lg">Hello there! My name's Alden Davidson, this is my personal website!</p>
+	<p class="text-lg">
+		Hello there! My name's Alden Davidson, this is my personal website!
+	</p>
 </section>
 
 <p>
-	I decided to make this site when I started dabbling in self-hosting stuff for myself, simply as
-	another thing to try. It's also, of course, a pretty handy place to organize the stuff I'm working
-	on in one central location. Feel free to take a look around!
+	I decided to make this site when I started dabbling in self-hosting stuff for
+	myself, simply as another thing to try. It's also, of course, a pretty handy
+	place to organize the stuff I'm working on in one central location. Feel free
+	to take a look around!
 </p>
 
 <style>

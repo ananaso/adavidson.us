@@ -1,19 +1,24 @@
-<script>
+<script lang="ts">
 	import {
 		BookMarked,
 		BriefcaseBusiness,
 		ExternalLink,
 		FolderGit,
-		Home,
+		House,
 		Menu,
 		Music,
-		SquareUser
-	} from 'lucide-svelte';
-	import { page } from '$app/stores';
-	import ThemeController from '$lib/components/ThemeController.svelte';
-	import OutLink from './OutLink.svelte';
+		SquareUser,
+	} from "@lucide/svelte"
+	import { page } from "$app/state"
+	import ThemeController from "$lib/components/ThemeController.svelte"
+	import OutLink from "./OutLink.svelte"
+	import { resolve } from "$app/paths"
 
-	const handleClick = () => document.getElementById('nav-drawer')?.click();
+	let { children } = $props()
+
+	function onclick() {
+		document.getElementById("nav-drawer")?.click()
+	}
 </script>
 
 <!-- TODO make this collapsable to icon-only bar in lg breakpoint -->
@@ -23,38 +28,50 @@
 		<input id="nav-drawer" type="checkbox" class="drawer-toggle" />
 		<div class="drawer-content flex flex-col items-center justify-center">
 			<div class="flex w-full flex-row items-center justify-between p-2">
-				<label for="nav-drawer" class="btn btn-primary drawer-button lg:hidden"><Menu /></label>
+				<label for="nav-drawer" class="btn btn-primary drawer-button lg:hidden"
+					><Menu /></label
+				>
 				<div class="flex w-full flex-row justify-end">
 					<ThemeController />
 				</div>
 			</div>
-			<slot />
+			{@render children?.()}
 		</div>
 		<div class="drawer-side">
-			<label for="nav-drawer" aria-label="close sidebar" class="drawer-overlay" />
-			<ul class="menu min-h-full w-fit bg-base-200 p-4 text-base-content">
-				<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-					<a on:click={handleClick} href="/"><Home />Home</a>
+			<label for="nav-drawer" aria-label="close sidebar" class="drawer-overlay"
+			></label>
+			<ul class="menu bg-base-200 text-base-content min-h-full w-fit p-4">
+				<li aria-current={page.url.pathname === "/" ? "page" : undefined}>
+					<a {onclick} href={resolve("/")}><House />Home</a>
 				</li>
-				<li aria-current={$page.url.pathname === '/resume' ? 'page' : undefined}>
-					<a on:click={handleClick} href="/resume"><BriefcaseBusiness />Resume</a>
+				<li aria-current={page.url.pathname === "/resume" ? "page" : undefined}>
+					<a {onclick} href={resolve("/resume")}><BriefcaseBusiness />Resume</a>
 				</li>
-				<li aria-current={$page.url.pathname === '/books' ? 'page' : undefined}>
-					<a on:click={handleClick} href="/books"><BookMarked />Books</a>
+				<li aria-current={page.url.pathname === "/books" ? "page" : undefined}>
+					<a {onclick} href={resolve("/books")}><BookMarked />Books</a>
 				</li>
 				<li>
-					<OutLink on:click={handleClick} url="https://github.com/ananaso" navbar
-						><FolderGit />GitHub<ExternalLink class="h-4 w-4 text-info" /></OutLink
+					<OutLink {onclick} url="https://github.com/ananaso" navbar
+						><FolderGit />GitHub<ExternalLink
+							class="text-info h-4 w-4"
+						/></OutLink
 					>
 				</li>
 				<li>
-					<OutLink on:click={handleClick} url="https://www.linkedin.com/in/davidsonalden/" navbar
-						><SquareUser />LinkedIn<ExternalLink class="h-4 w-4 text-info" /></OutLink
+					<OutLink
+						{onclick}
+						url="https://www.linkedin.com/in/davidsonalden/"
+						navbar
+						><SquareUser />LinkedIn<ExternalLink
+							class="text-info h-4 w-4"
+						/></OutLink
 					>
 				</li>
 				<li class="mt-auto">
-					<OutLink onClick={handleClick} url="https://jellyfin.adavidson.us" navbar
-						><Music />Jellyfin<ExternalLink class="h-4 w-4 text-info" /></OutLink
+					<OutLink {onclick} url="https://jellyfin.adavidson.us" navbar
+						><Music />Jellyfin<ExternalLink
+							class="text-info h-4 w-4"
+						/></OutLink
 					>
 				</li>
 			</ul>
@@ -64,7 +81,7 @@
 
 <style>
 	a {
-		color: oklch(var(--bc));
+		color: var(--color-base-content);
 	}
 
 	a:hover {
