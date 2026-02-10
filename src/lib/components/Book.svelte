@@ -1,16 +1,21 @@
 <script lang="ts">
-	import OutLink from '$lib/components/OutLink.svelte';
+	import OutLink from "$lib/components/OutLink.svelte"
 
 	interface Props {
-		title: string;
-		author: string;
-		series?: string;
-		genre?: 'Autobiographical Novel' | 'Fantasy' | 'Non-fiction' | 'Science Fiction' | 'War Novel';
-		lastRead?: string;
-		url?: string;
+		title: string
+		author: string
+		series?: string
+		genre?:
+			| "Autobiographical Novel"
+			| "Fantasy"
+			| "Non-fiction"
+			| "Science Fiction"
+			| "War Novel"
+		lastRead?: string
+		url?: string
 	}
 
-	let { title, author, series = '', genre, lastRead, url }: Props = $props();
+	let { title, author, series = "", genre, lastRead, url }: Props = $props()
 </script>
 
 <tr>

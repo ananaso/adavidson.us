@@ -1,22 +1,34 @@
 <script lang="ts">
-	import { cn } from '$lib/util/cn';
+	import { cn } from "$lib/util/cn"
 
 	interface Props {
-		date: string;
-		title: string;
-		company: string;
-		description: string;
-		tools?: string | undefined;
-		hangLeft?: boolean;
+		date: string
+		title: string
+		company: string
+		description: string
+		tools?: string | undefined
+		hangLeft?: boolean
 	}
 
-	let { date, title, company, description, tools = undefined, hangLeft = false }: Props = $props();
+	let {
+		date,
+		title,
+		company,
+		description,
+		tools = undefined,
+		hangLeft = false,
+	}: Props = $props()
 </script>
 
 <li>
 	<hr class="bg-neutral" />
 	<div class="timeline-middle">
-		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5">
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 20 20"
+			fill="currentColor"
+			class="h-5 w-5"
+		>
 			<path
 				fill-rule="evenodd"
 				d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
@@ -24,13 +36,18 @@
 			/>
 		</svg>
 	</div>
-	<div class={cn('mb-10 md:mb-6', hangLeft ? 'timeline-start md:text-end' : 'timeline-end')}>
+	<div
+		class={cn(
+			"mb-10 md:mb-6",
+			hangLeft ? "timeline-start md:text-end" : "timeline-end",
+		)}
+	>
 		<time class="font-mono italic">{date}</time>
 		<div class="text-primary text-lg font-bold">{title}</div>
 		<div
 			class={cn(
-				'text-md divider text-secondary mt-1 mb-2 font-semibold',
-				hangLeft ? 'max-md:divider-start md:divider-end' : 'divider-start'
+				"text-md divider text-secondary mt-1 mb-2 font-semibold",
+				hangLeft ? "max-md:divider-start md:divider-end" : "divider-start",
 			)}
 		>
 			{company}
@@ -39,8 +56,8 @@
 		{#if tools}
 			<div
 				class={cn(
-					'divider mb-2 font-semibold',
-					hangLeft ? 'max-md:divider-start md:divider-end' : 'divider-start'
+					"divider mb-2 font-semibold",
+					hangLeft ? "max-md:divider-start md:divider-end" : "divider-start",
 				)}
 			>
 				Tools

@@ -1,8 +1,8 @@
 <script lang="ts">
-	import Navbar from '$lib/components/Navbar.svelte';
-	import './styles.css';
+	import Navbar from "$lib/components/Navbar.svelte"
+	import "./styles.css"
 
-	let { children } = $props();
+	let { children } = $props()
 </script>
 
 <div class="flex min-h-screen flex-col">

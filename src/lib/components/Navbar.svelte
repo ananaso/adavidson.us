@@ -7,17 +7,17 @@
 		House,
 		Menu,
 		Music,
-		SquareUser
-	} from '@lucide/svelte';
-	import { page } from '$app/state';
-	import ThemeController from '$lib/components/ThemeController.svelte';
-	import OutLink from './OutLink.svelte';
-	import { resolve } from '$app/paths';
+		SquareUser,
+	} from "@lucide/svelte"
+	import { page } from "$app/state"
+	import ThemeController from "$lib/components/ThemeController.svelte"
+	import OutLink from "./OutLink.svelte"
+	import { resolve } from "$app/paths"
 
-	let { children } = $props();
+	let { children } = $props()
 
 	function onclick() {
-		document.getElementById('nav-drawer')?.click();
+		document.getElementById("nav-drawer")?.click()
 	}
 </script>
 
@@ -28,7 +28,9 @@
 		<input id="nav-drawer" type="checkbox" class="drawer-toggle" />
 		<div class="drawer-content flex flex-col items-center justify-center">
 			<div class="flex w-full flex-row items-center justify-between p-2">
-				<label for="nav-drawer" class="btn btn-primary drawer-button lg:hidden"><Menu /></label>
+				<label for="nav-drawer" class="btn btn-primary drawer-button lg:hidden"
+					><Menu /></label
+				>
 				<div class="flex w-full flex-row justify-end">
 					<ThemeController />
 				</div>
@@ -36,30 +38,40 @@
 			{@render children?.()}
 		</div>
 		<div class="drawer-side">
-			<label for="nav-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
+			<label for="nav-drawer" aria-label="close sidebar" class="drawer-overlay"
+			></label>
 			<ul class="menu bg-base-200 text-base-content min-h-full w-fit p-4">
-				<li aria-current={page.url.pathname === '/' ? 'page' : undefined}>
-					<a {onclick} href={resolve('/')}><House />Home</a>
+				<li aria-current={page.url.pathname === "/" ? "page" : undefined}>
+					<a {onclick} href={resolve("/")}><House />Home</a>
 				</li>
-				<li aria-current={page.url.pathname === '/resume' ? 'page' : undefined}>
-					<a {onclick} href={resolve('/resume')}><BriefcaseBusiness />Resume</a>
+				<li aria-current={page.url.pathname === "/resume" ? "page" : undefined}>
+					<a {onclick} href={resolve("/resume")}><BriefcaseBusiness />Resume</a>
 				</li>
-				<li aria-current={page.url.pathname === '/books' ? 'page' : undefined}>
-					<a {onclick} href={resolve('/books')}><BookMarked />Books</a>
+				<li aria-current={page.url.pathname === "/books" ? "page" : undefined}>
+					<a {onclick} href={resolve("/books")}><BookMarked />Books</a>
 				</li>
 				<li>
 					<OutLink {onclick} url="https://github.com/ananaso" navbar
-						><FolderGit />GitHub<ExternalLink class="text-info h-4 w-4" /></OutLink
+						><FolderGit />GitHub<ExternalLink
+							class="text-info h-4 w-4"
+						/></OutLink
 					>
 				</li>
 				<li>
-					<OutLink {onclick} url="https://www.linkedin.com/in/davidsonalden/" navbar
-						><SquareUser />LinkedIn<ExternalLink class="text-info h-4 w-4" /></OutLink
+					<OutLink
+						{onclick}
+						url="https://www.linkedin.com/in/davidsonalden/"
+						navbar
+						><SquareUser />LinkedIn<ExternalLink
+							class="text-info h-4 w-4"
+						/></OutLink
 					>
 				</li>
 				<li class="mt-auto">
 					<OutLink {onclick} url="https://jellyfin.adavidson.us" navbar
-						><Music />Jellyfin<ExternalLink class="text-info h-4 w-4" /></OutLink
+						><Music />Jellyfin<ExternalLink
+							class="text-info h-4 w-4"
+						/></OutLink
 					>
 				</li>
 			</ul>
