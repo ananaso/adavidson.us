@@ -1,4 +1,12 @@
+/* Write your global styles here, in PostCSS syntax */
+@import "tailwindcss";
 @import "@fontsource/fira-mono";
+@plugin "@tailwindcss/typography";
+@plugin "daisyui" {
+	themes:
+		autumn --default,
+		sunset --prefersdark;
+}
 
 a {
 	color: var(--color-accent);
