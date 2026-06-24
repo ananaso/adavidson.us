@@ -48,6 +48,19 @@
 		</thead>
 		<tbody>
 			<Book
+				title="The Children of the Sky"
+				author="Vernor Vinge"
+				series="Zones of Thought"
+				genre="Science Fiction"
+				url="https://share.libbyapp.com/title/873976"
+			/>
+			<Book
+				title="CATCH-22"
+				author="Joseph Heller"
+				genre="War Novel"
+				url="https://share.libbyapp.com/title/3390661"
+			/>
+			<Book
 				title="The Way of Kings"
 				author="Brandon Sanderson"
 				series="The Stormlight Archive"
@@ -67,31 +80,11 @@
 				url="https://share.libbyapp.com/title/2475608"
 			/>
 			<Book
-				title="The Illustrated Man"
-				author="Ray Bradbury"
-				genre="Science Fiction"
-				url="https://share.libbyapp.com/title/352008"
-			/>
-			<Book
 				title="Dune"
 				author="Frank Herbert"
 				series="Dune"
 				genre="Science Fiction"
 				url="https://share.libbyapp.com/title/2308988"
-			/>
-			<Book
-				title="Red Rising"
-				author="Pierce Brown"
-				series="Red Rising"
-				genre="Science Fiction"
-				url="https://share.libbyapp.com/title/1550522"
-			/>
-			<Book
-				title="The Tombs of Atuan"
-				author="Ursula K. Le Guin"
-				series="Earthsea"
-				genre="Fantasy"
-				url="https://share.libbyapp.com/title/2394243"
 			/>
 			<Book
 				title="The Left Hand of Darkness"
@@ -119,12 +112,6 @@
 				genre="Science Fiction"
 				url="https://share.libbyapp.com/title/605039"
 			/>
-			<Book
-				title="How the Railways Will Fix the Future: Rediscovering the Essential Brilliance of the Iron Road"
-				author="Gareth Dennis"
-				genre="Non-fiction"
-				url="https://www.amazon.com/How-Railways-Will-Future-Rediscovering/dp/B0DMPMY3KX"
-			/>
 		</tbody>
 	</table>
 </div>
@@ -146,11 +133,198 @@
 		</thead>
 		<tbody>
 			<Book
+				title="A Deepness in the Sky"
+				author="Vernor Vinge"
+				series="Zones of Thought"
+				genre="Science Fiction"
+				lastRead="June 06, 2026"
+				url="https://share.libbyapp.com/title/301253"
+			/>
+			<Book
+				title="How the Railways Will Fix the Future: Rediscovering the Essential Brilliance of the Iron Road"
+				author="Gareth Dennis"
+				genre="Non-fiction"
+				lastRead="April 12, 2026"
+				url="https://www.amazon.com/How-Railways-Will-Future-Rediscovering/dp/B0DMPMY3KX"
+			/>
+			<Book
+				title="The High Cost of Free Parking, Updated Edition"
+				author="Donald Shoup"
+				genre="Non-fiction"
+				lastRead="January 10, 2026"
+				url="https://share.libbyapp.com/title/4129522"
+			/>
+			<Book
+				title="A Fire Upon the Deep"
+				author="Vernor Vinge"
+				series="Zones of Thought"
+				genre="Science Fiction"
+				lastRead="December 17, 2025"
+				url="https://share.libbyapp.com/title/312532"
+			/>
+			<Book
+				title="The State of the Art"
+				author="Iain M. Banks"
+				series="Culture"
+				genre="Science Fiction"
+				lastRead="November 30, 2025"
+				url="https://share.libbyapp.com/title/9612689"
+			/>
+			<Book
+				title="Life After Cars"
+				author="Sarah Goodyear, Doug Gordon, Aaron Naparstek"
+				genre="Non-fiction"
+				lastRead="November 29, 2025"
+				url="https://share.libbyapp.com/title/11597686"
+			/>
+			<Book
+				title="Use of Weapons"
+				author="Iain M. Banks"
+				series="Culture"
+				genre="Science Fiction"
+				lastRead="November 16, 2025"
+				url="https://share.libbyapp.com/title/1192380"
+			/>
+			<Book
+				title="The Player of Games"
+				author="Iain M. Banks"
+				series="Culture"
+				genre="Science Fiction"
+				lastRead="November 04, 2025"
+				url="https://share.libbyapp.com/title/605056"
+			/>
+			<Book
+				title="Consider Phlebas"
+				author="Iain M. Banks"
+				series="Culture"
+				genre="Science Fiction"
+				lastRead="October 15, 2025"
+				url="https://share.libbyapp.com/title/605039"
+			/>
+			<Book
+				title="Light Bringer"
+				author="Pierce Brown"
+				series="Red Rising"
+				genre="Science Fiction"
+				lastRead="August 23, 2025"
+				url="https://share.libbyapp.com/title/5688943"
+			/>
+			<Book
+				title="Dark Age"
+				author="Pierce Brown"
+				series="Red Rising"
+				genre="Science Fiction"
+				lastRead="August 23, 2025"
+				url="https://share.libbyapp.com/title/4876761"
+			/>
+			<Book
+				title="Iron Gold"
+				author="Pierce Brown"
+				series="Red Rising"
+				genre="Science Fiction"
+				lastRead="July/August, 2025"
+				url="https://share.libbyapp.com/title/3726225"
+			/>
+			<Book
+				title="Morning Star, Part 2 of 2"
+				author="Pierce Brown"
+				series="Red Rising"
+				genre="Science Fiction"
+				lastRead="July/August, 2025"
+				url="https://share.libbyapp.com/title/10777561"
+			/>
+			<Book
+				title="The Seven Principles for Making Marriage Work"
+				author="John Gottman, PhD, Nan Silver"
+				genre="Non-fiction"
+				lastRead="July 18, 2025"
+				url="https://share.libbyapp.com/title/4982787"
+			/>
+			<Book
+				title="Morning Star, Part 1 of 2"
+				author="Pierce Brown"
+				series="Red Rising"
+				genre="Science Fiction"
+				lastRead="July 12, 2025"
+				url="https://share.libbyapp.com/title/10461499"
+			/>
+			<Book
+				title="Golden Son, Part 2 of 2"
+				author="Pierce Brown"
+				series="Red Rising"
+				genre="Science Fiction"
+				lastRead="July 07, 2025"
+				url="https://share.libbyapp.com/title/10184063"
+			/>
+			<Book
+				title="The Other Wind"
+				author="Ursula K. Le Guin"
+				series="Earthsea"
+				genre="Fantasy"
+				lastRead="July 07, 2025"
+				url="https://share.libbyapp.com/title/3784332"
+			/>
+			<Book
+				title="Tales from Earthsea"
+				author="Ursula K. Le Guin"
+				series="Earthsea"
+				genre="Fantasy"
+				lastRead="June 24, 2025"
+				url="https://share.libbyapp.com/title/3784071"
+			/>
+			<Book
+				title="Golden Son, Part 1 of 2"
+				author="Pierce Brown"
+				series="Red Rising"
+				genre="Science Fiction"
+				lastRead="June 22, 2025"
+				url="https://share.libbyapp.com/title/10084127"
+			/>
+			<Book
+				title="Tehanu"
+				author="Ursula K. Le Guin"
+				series="Earthsea"
+				genre="Fantasy"
+				lastRead="June 17, 2025"
+				url="https://share.libbyapp.com/title/3784078"
+			/>
+			<Book
+				title="Red Rising"
+				author="Pierce Brown"
+				series="Red Rising"
+				genre="Science Fiction"
+				lastRead="June 15, 2025"
+				url="https://share.libbyapp.com/title/1550522"
+			/>
+			<Book
+				title="The Farthest Shore"
+				author="Ursula K. Le Guin"
+				series="Earthsea"
+				genre="Fantasy"
+				lastRead="June 15, 2025"
+				url="https://share.libbyapp.com/title/2360494"
+			/>
+			<Book
+				title="The Tombs of Atuan"
+				author="Ursula K. Le Guin"
+				series="Earthsea"
+				genre="Fantasy"
+				lastRead="June 01, 2025"
+				url="https://share.libbyapp.com/title/2394243"
+			/>
+			<Book
+				title="The Illustrated Man"
+				author="Ray Bradbury"
+				genre="Science Fiction"
+				lastRead="May 30, 2025"
+				url="https://share.libbyapp.com/title/260946"
+			/>
+			<Book
 				title="A Wizard of Earthsea"
 				author="Ursula K. Le Guin"
 				series="Earthsea"
 				genre="Fantasy"
-				lastRead="May 22, 2025"
+				lastRead="May 19, 2025"
 				url="https://share.libbyapp.com/title/326687"
 			/>
 			<Book
