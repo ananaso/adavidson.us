@@ -15,7 +15,7 @@
 			These days I've caught the audiobook bug, since it allows me to easily
 			listen to/read books while going for a walk or riding my bike (if I'm in a
 			quiet, low-car traffic place), doing chores around the house, running
-			errands, playing Old School Runescape, and so on. Essentially, it allows
+			errands, playing Old School RuneScape, and so on. Essentially, it allows
 			me to read books while accomplishing other mundane tasks or while doing
 			something that doesn't require much brainpower. Some people might not
 			consider it reading - and it isn't in the most literal sense - but it's
@@ -47,13 +47,6 @@
 			</tr>
 		</thead>
 		<tbody>
-			<Book
-				title="The Children of the Sky"
-				author="Vernor Vinge"
-				series="Zones of Thought"
-				genre="Science Fiction"
-				url="https://share.libbyapp.com/title/873976"
-			/>
 			<Book
 				title="CATCH-22"
 				author="Joseph Heller"
@@ -105,13 +98,6 @@
 				genre="Autobiographical Novel"
 				url="https://share.libbyapp.com/title/145493"
 			/>
-			<Book
-				title="Consider Phlebas"
-				author="Iain M. Banks"
-				series="The Culture"
-				genre="Science Fiction"
-				url="https://share.libbyapp.com/title/605039"
-			/>
 		</tbody>
 	</table>
 </div>
@@ -132,6 +118,46 @@
 			</tr>
 		</thead>
 		<tbody>
+			<Book
+				title="Surface Detail"
+				author="Iain M. Banks"
+				series="Culture"
+				genre="Science Fiction"
+				lastRead="August 12, 2026"
+				url="https://share.libbyapp.com/title/504913"
+			/>
+			<Book
+				title="The Children of the Sky"
+				author="Vernor Vinge"
+				series="Zones of Thought"
+				genre="Science Fiction"
+				lastRead="July 19, 2026"
+				url="https://share.libbyapp.com/title/873976"
+			/>
+			<Book
+				title="Matter"
+				author="Iain M. Banks"
+				series="Culture"
+				genre="Science Fiction"
+				lastRead="July 05, 2026"
+				url="https://share.libbyapp.com/title/1549224"
+			/>
+			<Book
+				title="Look to Windward"
+				author="Iain M. Banks"
+				series="Culture"
+				genre="Science Fiction"
+				lastRead="July 03, 2026"
+				url=""
+			/>
+			<Book
+				title="Excession"
+				author="Iain M. Banks"
+				series="Culture"
+				genre="Science Fiction"
+				lastRead="June 26, 2026"
+				url="https://libro.fm/audiobooks/9781668652619"
+			/>
 			<Book
 				title="A Deepness in the Sky"
 				author="Vernor Vinge"
