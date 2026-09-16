@@ -1,0 +1,19 @@
+TODO: create some sort of list of things to showcase?
+# Current (audio)book?
+# Current Hobbies?
+# Movies?
+
+TODO: figure out who's nagging about missing a favicon.ico
+
+TODO: add "contact" page with email
+
+TODO: give site a mobile gut-check
+
+TODO: check out this prefers-color-scheme thing
+# https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme
+
+TODO: remove the "open in new tab" buttons, and just make them all nav like normal links
+TODO: remove the light/dark mode to further simplify things maybe?
+TODO: look into why when I navigate directly to any subroutes (e.g. /books, /resume) the site returns a 404, whereas navigating to root and then clicking around the app works fine
+
+TODO: deploy.sh still broken, maybe just rsync it up and then have some ssh commands that cp it? Or maybe try that git post-receive deploy trick that gemini mentioned

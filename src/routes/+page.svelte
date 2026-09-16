@@ -1,17 +1,3 @@
-<!-- TODO: create some sort of list of things to showcase? -->
-<!-- # Current (audio)book? -->
-<!-- # Current Hobbies? -->
-<!-- # Movies? -->
-
-<!-- TODO figure out who's nagging about missing a favicon.ico -->
-
-<!-- TODO add "contact" page with email -->
-
-<!-- TODO give site a mobile gut-check -->
-
-<!-- TODO check out this prefers-color-scheme thing -->
-<!-- https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme -->
-
 <script>
 	import welcome from "$lib/images/svelte-welcome.webp"
 	import welcome_fallback from "$lib/images/svelte-welcome.png"
