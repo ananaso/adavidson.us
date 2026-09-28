@@ -26,6 +26,7 @@
 		company="Rise8"
 		description="Replatforming Surefire, a USSF radio frequency deconfliction tool, from a traditional full-stack webapp to Palantir Foundry"
 		tools="Java, Material UI, MySQL, Next.js, React, Spring Framework, Typescript"
+		hangLeft
 	/>
 	<TimelineItem
 		date="August 2024"
