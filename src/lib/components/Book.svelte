@@ -8,6 +8,7 @@
 		genre?:
 			| "Autobiographical Novel"
 			| "Fantasy"
+			| "LitRPG"
 			| "Non-fiction"
 			| "Science Fiction"
 			| "War Novel"

@@ -48,6 +48,20 @@
 		</thead>
 		<tbody>
 			<Book
+				title="Dungeon Crawler Carl"
+				author="Matt Dinniman"
+				series="Dungeon Crawler Carl"
+				genre="LitRPG"
+				url="https://www.amazon.com/dp/B08V8877BY"
+			/>
+			<Book
+				title="Carl's Doomsday Scenario"
+				author="Matt Dinniman"
+				series="Dungeon Crawler Carl"
+				genre="LitRPG"
+				url="https://www.amazon.com/dp/B09345T1HY"
+			/>
+			<Book
 				title="CATCH-22"
 				author="Joseph Heller"
 				genre="War Novel"
@@ -119,6 +133,14 @@
 		</thead>
 		<tbody>
 			<Book
+				title="The Hydrogen Sonata"
+				author="Iain M. Banks"
+				series="Culture"
+				genre="Science Fiction"
+				lastRead="August 30, 2026"
+				url="https://share.libbyapp.com/title/1026972"
+			/>
+			<Book
 				title="Surface Detail"
 				author="Iain M. Banks"
 				series="Culture"
@@ -148,7 +170,7 @@
 				series="Culture"
 				genre="Science Fiction"
 				lastRead="July 03, 2026"
-				url=""
+				url="https://libro.fm/audiobooks/9781405512459-look-to-windward"
 			/>
 			<Book
 				title="Excession"
