@@ -21,10 +21,17 @@
 	class="timeline timeline-vertical timeline-snap-icon max-md:timeline-compact"
 >
 	<TimelineItem
+		date="April 2026"
+		title="Senior Software Engineer"
+		company="Rise8"
+		description="Replatforming Surefire, a USSF radio frequency deconfliction tool, from a traditional full-stack webapp to Palantir Foundry"
+		tools="Java, Material UI, MySQL, Next.js, React, Spring Framework, Typescript"
+	/>
+	<TimelineItem
 		date="August 2024"
 		title="Software Engineer"
 		company="Rise8"
-		description="Developing a state-of-the-art Risk Management Framework platform for simplifying and streamlining the continuous authority to operate (cATO) process."
+		description="Developed a state-of-the-art Risk Management Framework platform for simplifying, streamlining, and elucidating the continuous authority to operate (cATO) process."
 		tools="Java, Material UI, MySQL, Next.js, React, Spring Framework, Typescript"
 	/>
 	<TimelineItem
