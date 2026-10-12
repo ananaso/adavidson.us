@@ -14,6 +14,3 @@ TODO: check out this prefers-color-scheme thing
 
 TODO: remove the "open in new tab" buttons, and just make them all nav like normal links
 TODO: remove the light/dark mode to further simplify things maybe?
-TODO: look into why when I navigate directly to any subroutes (e.g. /books, /resume) the site returns a 404, whereas navigating to root and then clicking around the app works fine
-
-TODO: deploy.sh still broken, maybe just rsync it up and then have some ssh commands that cp it? Or maybe try that git post-receive deploy trick that gemini mentioned
