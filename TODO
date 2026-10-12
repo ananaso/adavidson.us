@@ -12,3 +12,5 @@ TODO: check out this prefers-color-scheme thing
 
 TODO: remove the "open in new tab" buttons, and just make them all nav like normal links
 TODO: remove the light/dark mode to further simplify things maybe?
+
+TODO: consider using ts.configs.recommendedTypeChecked
