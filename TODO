@@ -10,5 +10,4 @@ TODO: give site a mobile gut-check
 TODO: check out this prefers-color-scheme thing
 # https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme
 
-TODO: remove the "open in new tab" buttons, and just make them all nav like normal links
 TODO: remove the light/dark mode to further simplify things maybe?

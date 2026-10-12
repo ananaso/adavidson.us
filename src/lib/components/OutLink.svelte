@@ -13,8 +13,7 @@
 
 <a
 	href={url}
-	rel="external noopener noreferrer"
-	target="_blank"
+	rel="external"
 	{onclick}
 	style={navbar
 		? "color: var(--color-base-content); text-decoration: none"

@@ -23,8 +23,6 @@
 	}
 </script>
 
-<!-- TODO make this collapsable to icon-only bar in lg breakpoint -->
-
 <header>
 	<nav class="drawer lg:drawer-open">
 		<input id="nav-drawer" type="checkbox" class="drawer-toggle" />
