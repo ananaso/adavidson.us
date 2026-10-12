@@ -1,8 +1,9 @@
 <script lang="ts">
 	import Navbar from "#lib/components/Navbar.svelte"
 	import "./styles.css"
+	import type { LayoutProps } from "./$types"
 
-	let { children } = $props()
+	let { children }: LayoutProps = $props()
 </script>
 
 <div class="flex min-h-screen flex-col">

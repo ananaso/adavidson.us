@@ -1,4 +1,5 @@
 <script lang="ts">
+	import type { Snippet } from "svelte"
 	import {
 		BookBookmark,
 		BriefcaseBusiness,
@@ -15,7 +16,7 @@
 	import OutLink from "./OutLink.svelte"
 	import { resolve } from "$app/paths"
 
-	let { children } = $props()
+	let { children }: { children: Snippet } = $props()
 
 	function onclick() {
 		document.getElementById("nav-drawer")?.click()

@@ -15,12 +15,15 @@ const gitignorePath = fileURLToPath(new URL("./.gitignore", import.meta.url))
 export default defineConfig(
 	includeIgnoreFile(gitignorePath),
 	js.configs.recommended,
-	...ts.configs.recommended,
+	...ts.configs.recommendedTypeChecked,
 	...svelte.configs.recommended,
 	prettier,
 	...svelte.configs.prettier,
 	{
-		languageOptions: { globals: { ...globals.browser, ...globals.node } },
+		languageOptions: {
+			parserOptions: { projectService: true },
+			globals: { ...globals.browser, ...globals.node },
+		},
 
 		rules: {
 			// typescript-eslint strongly recommend that you do not use the no-undef lint rule on TypeScript projects.
@@ -33,11 +36,14 @@ export default defineConfig(
 
 		languageOptions: {
 			parserOptions: {
-				projectService: true,
 				extraFileExtensions: [".svelte"],
 				parser: ts.parser,
 				svelteConfig,
 			},
 		},
+	},
+	{
+		files: ["eslint.config.js", "tailwind.config.js"],
+		...ts.configs.disableTypeChecked,
 	},
 )
