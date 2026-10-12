@@ -9,6 +9,7 @@
 		Music,
 		SquareUser,
 	} from "@lucide/svelte"
+
 	import { page } from "$app/state"
 	import ThemeController from "$lib/components/ThemeController.svelte"
 	import OutLink from "./OutLink.svelte"
@@ -40,39 +41,44 @@
 		<div class="drawer-side">
 			<label for="nav-drawer" aria-label="close sidebar" class="drawer-overlay"
 			></label>
+
 			<ul class="menu bg-base-200 text-base-content min-h-full w-fit p-4">
 				<li aria-current={page.url.pathname === "/" ? "page" : undefined}>
 					<a {onclick} href={resolve("/")}><House />Home</a>
 				</li>
+
 				<li aria-current={page.url.pathname === "/resume" ? "page" : undefined}>
-					<a {onclick} href={resolve("/resume")}><BriefcaseBusiness />Resume</a>
+					<a {onclick} href={resolve("resume")}><BriefcaseBusiness />Resume</a>
 				</li>
+
 				<li aria-current={page.url.pathname === "/books" ? "page" : undefined}>
-					<a {onclick} href={resolve("/books")}><BookMarked />Books</a>
+					<a {onclick} href={resolve("books")}><BookMarked />Books</a>
 				</li>
+
 				<li>
-					<OutLink {onclick} url="https://github.com/ananaso" navbar
-						><FolderGit />GitHub<ExternalLink
-							class="text-info h-4 w-4"
-						/></OutLink
-					>
+					<OutLink {onclick} url="https://github.com/ananaso" navbar>
+						<FolderGit />
+						GitHub
+						<ExternalLink class="text-info h-4 w-4" />
+					</OutLink>
 				</li>
 				<li>
 					<OutLink
 						{onclick}
 						url="https://www.linkedin.com/in/davidsonalden/"
 						navbar
-						><SquareUser />LinkedIn<ExternalLink
-							class="text-info h-4 w-4"
-						/></OutLink
 					>
+						<SquareUser />
+						LinkedIn
+						<ExternalLink class="text-info h-4 w-4" />
+					</OutLink>
 				</li>
 				<li class="mt-auto">
-					<OutLink {onclick} url="https://jellyfin.adavidson.us" navbar
-						><Music />Jellyfin<ExternalLink
-							class="text-info h-4 w-4"
-						/></OutLink
-					>
+					<OutLink {onclick} url="https://jellyfin.adavidson.us" navbar>
+						<Music />
+						Jellyfin
+						<ExternalLink class="text-info h-4 w-4" />
+					</OutLink>
 				</li>
 			</ul>
 		</div>

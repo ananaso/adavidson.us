@@ -12,10 +12,13 @@
 <a
 	role="button"
 	class="btn w-fit md:self-center"
-	href={asset("/resume_adavidson.pdf")}
+	href={asset("resume_adavidson.pdf")}
 	download="resume_adavidson.pdf"
-	><ScrollText />Resume<Download class="text-info h-4 w-4" /></a
 >
+	<ScrollText />
+	Resume
+	<Download class="text-info h-4 w-4" />
+</a>
 
 <ul
 	class="timeline timeline-vertical timeline-snap-icon max-md:timeline-compact"
