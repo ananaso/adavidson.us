@@ -1,6 +1,6 @@
 <script lang="ts">
 	import {
-		BookMarked,
+		BookBookmark,
 		BriefcaseBusiness,
 		ExternalLink,
 		FolderGit,
@@ -48,11 +48,11 @@
 				</li>
 
 				<li aria-current={page.url.pathname === "/resume" ? "page" : undefined}>
-					<a {onclick} href={resolve("resume")}><BriefcaseBusiness />Resume</a>
+					<a {onclick} href={resolve("/resume")}><BriefcaseBusiness />Resume</a>
 				</li>
 
 				<li aria-current={page.url.pathname === "/books" ? "page" : undefined}>
-					<a {onclick} href={resolve("books")}><BookMarked />Books</a>
+					<a {onclick} href={resolve("/books")}><BookBookmark />Books</a>
 				</li>
 
 				<li>
