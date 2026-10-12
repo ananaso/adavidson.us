@@ -1,6 +1,6 @@
 <script>
 	import { asset } from "$app/paths"
-	import TimelineItem from "$lib/components/TimelineItem.svelte"
+	import TimelineItem from "#lib/components/TimelineItem.svelte"
 	import { Download, ScrollText } from "@lucide/svelte"
 </script>
 

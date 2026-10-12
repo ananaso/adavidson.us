@@ -11,7 +11,7 @@
 	} from "@lucide/svelte"
 
 	import { page } from "$app/state"
-	import ThemeController from "$lib/components/ThemeController.svelte"
+	import ThemeController from "#lib/components/ThemeController.svelte"
 	import OutLink from "./OutLink.svelte"
 	import { resolve } from "$app/paths"
 

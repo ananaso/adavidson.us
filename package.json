@@ -44,5 +44,9 @@
 		"typescript-eslint": "^8.71.1",
 		"vite": "^8.3.4"
 	},
-	"type": "module"
+	"type": "module",
+	"imports": {
+		"#lib": "./src/lib/index.js",
+		"#lib/*": "./src/lib/*"
+	}
 }

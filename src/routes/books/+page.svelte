@@ -1,5 +1,5 @@
 <script>
-	import Book from "$lib/components/Book.svelte"
+	import Book from "#lib/components/Book.svelte"
 </script>
 
 <svelte:head>

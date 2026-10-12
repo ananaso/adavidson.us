@@ -1,5 +1,5 @@
 <script lang="ts">
-	import OutLink from "$lib/components/OutLink.svelte"
+	import OutLink from "#lib/components/OutLink.svelte"
 
 	interface Props {
 		title: string

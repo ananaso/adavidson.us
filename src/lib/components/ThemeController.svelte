@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { theme, toggleTheme } from "$lib/util/themeStore"
+	import { theme, toggleTheme } from "#lib/util/themeStore.js"
 	import { onMount } from "svelte"
 
 	const lightTheme = "retro"

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { cn } from "$lib/util/cn"
+	import { cn } from "#lib/util/cn.js"
 
 	interface Props {
 		date: string
