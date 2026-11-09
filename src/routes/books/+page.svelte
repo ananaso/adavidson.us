@@ -48,20 +48,6 @@
 		</thead>
 		<tbody>
 			<Book
-				title="Dungeon Crawler Carl"
-				author="Matt Dinniman"
-				series="Dungeon Crawler Carl"
-				genre="LitRPG"
-				url="https://www.amazon.com/dp/B08V8877BY"
-			/>
-			<Book
-				title="Carl's Doomsday Scenario"
-				author="Matt Dinniman"
-				series="Dungeon Crawler Carl"
-				genre="LitRPG"
-				url="https://www.amazon.com/dp/B09345T1HY"
-			/>
-			<Book
 				title="CATCH-22"
 				author="Joseph Heller"
 				genre="War Novel"
@@ -112,6 +98,25 @@
 				genre="Autobiographical Novel"
 				url="https://share.libbyapp.com/title/145493"
 			/>
+			<Book
+				title="I Who Have Never Known Men"
+				author="Jacqueline Harpman"
+				genre="Science Fiction"
+				url="https://share.libbyapp.com/title/10908540"
+			/>
+			<Book
+				title="Flowers for Algernon"
+				author="Daniel Keyes"
+				genre="Science Fiction"
+				url="https://share.libbyapp.com/title/2360365"
+			/>
+			<Book
+				title="Annihilation"
+				author="Jeff VanderMeer"
+				series="Southern Reach"
+				genre="Science Fiction"
+				url="https://share.libbyapp.com/title/1435212"
+			/>
 		</tbody>
 	</table>
 </div>
@@ -132,6 +137,37 @@
 			</tr>
 		</thead>
 		<tbody>
+			<Book
+				title="Feersum Endjinn"
+				author="Iain M. Banks"
+				genre="Science Fiction"
+				lastRead="November 06, 2026"
+				url="https://libro.fm/audiobooks/9781405512206-feersum-endjinn"
+			/>
+			<Book
+				title="The Dungeon Anarchist's Cookbook"
+				author="Matt Dinniman"
+				series="Dungeon Crawler Carl"
+				genre="LitRPG"
+				lastRead="October 22, 2026"
+				url="https://www.audible.com/pd/B094XCNV6G"
+			/>
+			<Book
+				title="Carl's Doomsday Scenario"
+				author="Matt Dinniman"
+				series="Dungeon Crawler Carl"
+				genre="LitRPG"
+				lastRead="October 14, 2026"
+				url="https://www.amazon.com/dp/B09345T1HY"
+			/>
+			<Book
+				title="Dungeon Crawler Carl"
+				author="Matt Dinniman"
+				series="Dungeon Crawler Carl"
+				genre="LitRPG"
+				lastRead="October 06, 2026"
+				url="https://www.amazon.com/dp/B08V8877BY"
+			/>
 			<Book
 				title="The Hydrogen Sonata"
 				author="Iain M. Banks"
