@@ -48,20 +48,6 @@
 		</thead>
 		<tbody>
 			<Book
-				title="Dungeon Crawler Carl"
-				author="Matt Dinniman"
-				series="Dungeon Crawler Carl"
-				genre="LitRPG"
-				url="https://www.amazon.com/dp/B08V8877BY"
-			/>
-			<Book
-				title="Carl's Doomsday Scenario"
-				author="Matt Dinniman"
-				series="Dungeon Crawler Carl"
-				genre="LitRPG"
-				url="https://www.amazon.com/dp/B09345T1HY"
-			/>
-			<Book
 				title="CATCH-22"
 				author="Joseph Heller"
 				genre="War Novel"
@@ -132,6 +118,30 @@
 			</tr>
 		</thead>
 		<tbody>
+			<Book
+				title="The Dungeon Anarchist's Cookbook"
+				author="Matt Dinniman"
+				series="Dungeon Crawler Carl"
+				genre="LitRPG"
+				lastRead="October 22, 2026"
+				url="https://www.audible.com/pd/B094XCNV6G"
+			/>
+			<Book
+				title="Carl's Doomsday Scenario"
+				author="Matt Dinniman"
+				series="Dungeon Crawler Carl"
+				genre="LitRPG"
+				lastRead="October 14, 2026"
+				url="https://www.amazon.com/dp/B09345T1HY"
+			/>
+			<Book
+				title="Dungeon Crawler Carl"
+				author="Matt Dinniman"
+				series="Dungeon Crawler Carl"
+				genre="LitRPG"
+				lastRead="October 06, 2026"
+				url="https://www.amazon.com/dp/B08V8877BY"
+			/>
 			<Book
 				title="The Hydrogen Sonata"
 				author="Iain M. Banks"
