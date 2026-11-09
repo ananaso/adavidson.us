@@ -98,6 +98,25 @@
 				genre="Autobiographical Novel"
 				url="https://share.libbyapp.com/title/145493"
 			/>
+			<Book
+				title="I Who Have Never Known Men"
+				author="Jacqueline Harpman"
+				genre="Science Fiction"
+				url="https://share.libbyapp.com/title/10908540"
+			/>
+			<Book
+				title="Flowers for Algernon"
+				author="Daniel Keyes"
+				genre="Science Fiction"
+				url="https://share.libbyapp.com/title/2360365"
+			/>
+			<Book
+				title="Annihilation"
+				author="Jeff VanderMeer"
+				series="Southern Reach"
+				genre="Science Fiction"
+				url="https://share.libbyapp.com/title/1435212"
+			/>
 		</tbody>
 	</table>
 </div>
@@ -118,6 +137,12 @@
 			</tr>
 		</thead>
 		<tbody>
+			<Book
+				title="Feersum Endjinn"
+				author="Iain M. Banks"
+				genre="Science Fiction"
+				lastRead="November 06, 2026"
+			/>
 			<Book
 				title="The Dungeon Anarchist's Cookbook"
 				author="Matt Dinniman"
